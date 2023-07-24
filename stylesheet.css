@@ -1,0 +1,15 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    border: 1px solid black;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+main {
+    border: 1px solid black;
+}
