@@ -128,3 +128,9 @@ li > a {
 .book > .frame {
     background-color: transparent;
 }
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: var(--myBlue);
+}
