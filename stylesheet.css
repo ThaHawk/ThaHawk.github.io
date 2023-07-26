@@ -11,18 +11,18 @@ body {
 }
 
 header {
-    border: 1px solid black;
+    border: 0 solid black;
 }
 
 nav {
-    border: 1px solid black;
+    border: 0 solid black;
 }
 
 main {
-    border: 1px solid black;
+    border: 0 solid black;
 }
 
-.VidgerdarListi {
+.FerningsHlutur {
     /*border: 1px solid black;*/
     background-color: var(--myBlue);
     border-radius: 10px;
@@ -34,7 +34,7 @@ main {
     margin: 2px;
 }
 
-.VidgerdarListi img {
+.FerningsHlutur img {
     width: 100%;
     height: var(--vidgerdMaxHeight);
     object-fit: contain;
@@ -44,21 +44,49 @@ main {
     margin-right: auto;
 }
 
-.VidgerdarListi h2 {
-    text-align: center;
+.Myndalisti {
+    /*border: 1px solid black;*/
+    background-color: var(--myBlue);
+    border-radius: 10px;
+    width: 49.2%;
+    float: left;
+    max-height: auto;
+    padding: 0;
+    overflow: hidden;
+    margin: 2px;
 }
 
-p {
-    margin: 8px;
+.Myndalisti img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.frame {
+h2, h1 {margin: 8px; text-align: center;}
+
+p {margin: 8px;}
+
+.Myndalisti > .frame {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: right;
+    background-color: black;
+}
+
+.FerningsHlutur > .frame {
     width: 50%;
     margin: 0;
     padding: 0;
     border: none;
     float: right;
     background-color: white;
+
 }
 
 .text {
@@ -67,5 +95,23 @@ p {
     padding: 0;
     border: none;
     float: left;
-    
+}
+
+ul {margin:0;padding:0;}
+
+li {
+    float: left;
+    width: 24.5%;
+    list-style: none;
+    padding: 0;
+    margin: 0 2px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--myBlue);
+}
+
+li > a {
+    display: block;
+    height: 100%;
 }
