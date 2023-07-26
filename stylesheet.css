@@ -1,5 +1,11 @@
+:root {
+    --vidgerdMaxHeight: 400px;
+}
+
 body {
     background-color: lightgray;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -12,4 +18,39 @@ nav {
 
 main {
     border: 1px solid black;
+}
+
+.VidgerdarListi {
+    border: 1px solid black;
+    width: 49%;
+    float: left;
+    max-height: var(--vidgerdMaxHeight);
+    padding: 0;
+}
+
+.VidgerdarListi img {
+    width: 100%;
+    height: var(--vidgerdMaxHeight);
+    object-fit: contain;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.VidgerdarListi h2 {
+    float: left;
+    width: 50%;
+}
+.VidgerdarListi p {
+    float: left;
+    width: 50%;
+}
+
+.frame {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: right;
 }
