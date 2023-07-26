@@ -1,9 +1,11 @@
 :root {
     --vidgerdMaxHeight: 400px;
+    --myBlue: #68cced;
+    --backgroundBlue: #b5e5f5;
 }
 
 body {
-    background-color: lightgray;
+    background-color: var(--backgroundBlue);
     padding: 0;
     margin: 0;
 }
@@ -21,11 +23,15 @@ main {
 }
 
 .VidgerdarListi {
-    border: 1px solid black;
-    width: 49%;
+    /*border: 1px solid black;*/
+    background-color: var(--myBlue);
+    border-radius: 10px;
+    width: 49.2%;
     float: left;
     max-height: var(--vidgerdMaxHeight);
     padding: 0;
+    overflow: hidden;
+    margin: 2px;
 }
 
 .VidgerdarListi img {
@@ -39,12 +45,11 @@ main {
 }
 
 .VidgerdarListi h2 {
-    float: left;
-    width: 50%;
+    text-align: center;
 }
-.VidgerdarListi p {
-    float: left;
-    width: 50%;
+
+p {
+    margin: 8px;
 }
 
 .frame {
@@ -53,4 +58,14 @@ main {
     padding: 0;
     border: none;
     float: right;
+    background-color: white;
+}
+
+.text {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+    
 }
