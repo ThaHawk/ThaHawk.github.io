@@ -134,3 +134,16 @@ footer {
     width: 100%;
     background-color: var(--myBlue);
 }
+
+.Umsokn {
+    float:left;
+    width: 99%;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.Umsokn:hover {
+    opacity: 100%;
+    background-color: var(--myBlue);
+}
