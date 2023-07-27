@@ -2,6 +2,12 @@
     --vidgerdMaxHeight: 400px;
     --myBlue: #68cced;
     --backgroundBlue: #b5e5f5;
+    --bannerHeight: 1em;
+}
+
+html {
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -12,14 +18,25 @@ body {
 
 header {
     border: 0 solid black;
+    background-color: var(--myBlue);
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
 }
 
-nav {
-    border: 0 solid black;
-}
+header h1 {margin-left: 2em; margin-top: .5em; float: left;}
+
+h1 a {text-decoration: 0;color:black;}
+
+nav {border: 0 solid black;overflow:hidden;}
 
 main {
     border: 0 solid black;
+    display: block;
+    overflow: hidden;
+    margin-top: 3.4em;
 }
 
 .FerningsHlutur {
@@ -69,9 +86,7 @@ main {
 
 h3, h2, h1 {margin: 8px; text-align: center;}
 
-h2 {
-    border-bottom: 1px solid black;
-}
+h2 {border-bottom: 1px solid black;}
 
 p {margin: 8px;}
 
@@ -102,7 +117,12 @@ p {margin: 8px;}
     float: left;
 }
 
-ul {margin:0;padding:0;}
+ul {
+    margin:0;
+    padding:0;
+    width: 66%;
+    float: right;
+}
 
 li {
     float: left;
@@ -112,8 +132,6 @@ li {
     margin: 0 2px;
     text-align: center;
     /*height: 40px;*/
-    border-radius: 10px;
-    background-color: white;
 }
 
 li > a {
@@ -126,8 +144,8 @@ li > a {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-li:hover {
-    background-color: var(--myBlue);
+a:hover {
+    color: var(--backgroundBlue);
 }
 
 .halfur {
@@ -145,18 +163,5 @@ li:hover {
 footer {
     float: left;
     width: 100%;
-    background-color: var(--myBlue);
-}
-
-.Umsokn {
-    float:left;
-    width: 99%;
-    background-color: white;
-    border-radius: 10px;
-    opacity: 90%;
-}
-
-.Umsokn:hover {
-    opacity: 100%;
     background-color: var(--myBlue);
 }
