@@ -44,7 +44,7 @@ main {
     /*background-color: var(--myBlue);*/
     background-color: white;
     border-radius: 10px;
-    width: 99.4%;
+    width: 99.6%;
     float: left;
     max-height: var(--vidgerdMaxHeight);
     padding: 0;
@@ -86,6 +86,10 @@ main {
 
 h3, h2, h1 {margin: 8px; text-align: center;}
 
+nav h1 {
+    margin-top: 14px;
+}
+
 h2 {border-bottom: 1px solid black;}
 
 p {margin: 8px;}
@@ -126,7 +130,7 @@ ul {
 
 li {
     float: left;
-    width: 24.55%;
+    width: 18.9%;
     list-style: none;
     padding: 0;
     margin: 0 2px;
@@ -144,12 +148,17 @@ li > a {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+span {
+    margin: 0;
+    padding: 0;
+}
+
 a:hover {
     color: var(--backgroundBlue);
 }
 
 .halfur {
-    width: 49.2%;
+    width: 49.7%;
 }
 
 .einnthridji {
