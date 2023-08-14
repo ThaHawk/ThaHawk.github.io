@@ -94,7 +94,7 @@ footer {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-column-gap: 4px;
     grid-row-gap: 4px;
     margin: 4px;
