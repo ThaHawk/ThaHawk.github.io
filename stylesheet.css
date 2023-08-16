@@ -100,7 +100,7 @@ footer {
     margin: 4px;
 }
 
-.three {
+.size {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -108,6 +108,10 @@ footer {
     padding: 0;
     margin: 0;
     background-color: white;
+}
+
+.grid-item h4 {
+    margin: 0 10px;
 }
 
 .grid-item p {
@@ -132,3 +136,10 @@ footer {
     padding: 0;
 }
 
+.bokasafn {
+    background-color: #7ad67a;
+}
+
+.bokasafn header, .bokasafn footer{
+    background-color: #19e66e;
+}
