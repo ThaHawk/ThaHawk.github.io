@@ -1,8 +1,8 @@
 :root {
-    --vidgerdMaxHeight: 400px;
-    --myBlue: #68cced;
+    --headerBlue: #68cced;
     --backgroundBlue: #b5e5f5;
-    --bannerHeight: 1em;
+    --headerGreen: #19e66e;
+    --backgroundGreen: #7ad67a;
 }
 
 html {
@@ -18,7 +18,7 @@ body {
 
 header {
     border: 0 solid black;
-    background-color: var(--myBlue);
+    background-color: var(--headerBlue);
     margin: 0;
     position: fixed;
     width: 100%;
@@ -89,7 +89,7 @@ a:hover {
 footer {
     float: left;
     width: 100%;
-    background-color: var(--myBlue);
+    background-color: var(--headerBlue);
 }
 
 .grid-container {
@@ -100,11 +100,9 @@ footer {
     margin: 4px;
 }
 
-.size {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 .grid-item {
+    display: flex;
+    align-items: center;
     padding: 0;
     margin: 0;
     background-color: white;
@@ -115,31 +113,29 @@ footer {
 }
 
 .grid-item p {
-    float: right;
     padding: 0;
     margin: 10px;
     margin-top: 0;
 }
 
 .grid-item img {
-    float: left;
     width: 50%;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin:  0;
 }
 
 .text {
     width: 50%;
-    float: right;
+    height: 100%;
     border: none;
     margin: 0;
     padding: 0;
 }
 
 .bokasafn {
-    background-color: #7ad67a;
+    background-color: var(--backgroundGreen);
 }
 
 .bokasafn header, .bokasafn footer{
-    background-color: #19e66e;
+    background-color: var(--headerGreen);
 }
