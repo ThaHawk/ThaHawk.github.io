@@ -41,7 +41,7 @@ a {
 main {
     display: block;
     overflow: hidden;
-    margin-top: 84px;
+    margin-top: 81px;
 }
 
 h2 {
@@ -51,7 +51,7 @@ h2 {
 main h1 {
     text-align: center;
     background-color:white;
-    margin: 0 4px;
+    margin: 4px 4px 0 4px;
     padding: 0.5em;
 }
 
