@@ -21,6 +21,8 @@ header {
     overflow: hidden;
     display: flex;
     align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 nav {
@@ -41,18 +43,21 @@ a {
 main {
     display: block;
     overflow: hidden;
-    margin-top: 81px;
+    margin-top: 85px;
 }
 
 h2 {
     border-bottom: 1px solid black;
     text-align: center;
 }
+
 main h1 {
     text-align: center;
     background-color:white;
-    margin: 4px 4px 0 4px;
+    margin: 0 4px 4px 4px;
     padding: 0.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 p {margin: 8px;}
@@ -147,3 +152,6 @@ footer {
 .bokasafn header, .bokasafn footer{
     background-color: var(--headerGreen);
 }
+
+/* Starts closed */
+.year2021, .year2022 {display: none;}
