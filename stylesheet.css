@@ -12,7 +12,11 @@ body {
 }
 
 header {
-    background-color: var(--headerBlue);
+    background: rgb(0,224,255);
+    background: radial-gradient(circle, 
+    rgba(0,224,255,1) 0%, 
+    rgba(0,117,255,1) 100%);
+    /*background-color: var(--headerBlue);*/
     width: 100%;
     margin: 0;
     padding: 0;
@@ -102,12 +106,15 @@ a:hover {
 footer {
     float: left;
     width: 100%;
-    background-color: var(--headerBlue);
+    background: rgb(0,224,255);
+    background: radial-gradient(circle, 
+    rgba(0,224,255,1) 0%, 
+    rgba(0,117,255,1) 100%);
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 4px;
     grid-row-gap: 4px;
     margin: 4px;
@@ -153,5 +160,18 @@ footer {
     background-color: var(--headerGreen);
 }
 
-/* Starts closed */
-.year2021, .year2022 {display: none;}
+
+.index {
+    padding: 10% 25%;
+}
+
+.index .grid-item {
+    background-size: cover;
+    padding: 32px;
+}
+.index .grid-item h2 {
+    width: 100%;
+    border: none;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+}  
