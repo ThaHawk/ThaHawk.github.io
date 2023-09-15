@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://hjalmtyr.github.io/WebGL-forrit/Angel/T-shape-fan.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Frogger Verkefni 1</title>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;
+uniform float frogPosX, frogPosY;
+
+void
+main()
+{
+
+    gl_Position.x = vPosition.x + frogPosX;
+    gl_Position.y = vPosition.y + frogPosY;
+    gl_Position.z = 0.0;
+    gl_Position.w = 1.0;
+    
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+uniform vec4 fColor;
+
+void
+main()
+{
+    gl_FragColor = fColor;
+}
+</script>
+
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+<script type="text/javascript" src="../Common/Frogger.js"></script>
+</head>
+
+<body>
+<canvas id="gl-canvas" width="512" height="512">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+
+
+</body></html>
