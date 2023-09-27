@@ -7,6 +7,8 @@
 <script id="vertex-shader" type="x-shader/x-vertex">
 uniform float time;
 attribute vec4 vPosition;
+varying vec4 pcolor; 
+
 
 void main()
 {
@@ -16,16 +18,24 @@ void main()
     tpos.y = 1.0 - mod(0.0015*time + tpos.y+1.0, 2.0);
 
     gl_Position = tpos;
-    
-}
+
+    // length is sqrt(x^2 + y^2 + z^2)
+    if ( (length( tpos.xy ) > 0.6 && tpos.y < 0.0) ||
+         (length( tpos.xy ) < 0.6 && tpos.y > 0.0) )
+        pcolor = vec4( 1.0, 0.0, 0.0, 1.0 );
+    else
+        pcolor = vec4( 1.0, 1.0, 1.0, 1.0 );
+         
+} 
 </script>
 
 <script id="fragment-shader" type="x-shader/x-fragment">
 precision mediump float;
+varying vec4 pcolor;
 
 void main()
 {
-    gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    gl_FragColor = pcolor;
 }
 </script>
 
