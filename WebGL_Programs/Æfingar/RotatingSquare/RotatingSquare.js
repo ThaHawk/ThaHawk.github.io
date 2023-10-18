@@ -1,4 +1,7 @@
 var gl;
+var vertices;
+var theta = 0.1;
+
 
 //  Execute the code when the website has finished loading
 window.onload = function init()
@@ -14,10 +17,12 @@ window.onload = function init()
 
 
     //  Create some vertices
-    var vertices = [
-        vec2(  0.0,  1.0 ),
-        vec2(  1.0,  0.0 ),
-        vec2( -1.0,  0.0 )
+    vertices = [
+        //  use TRIANGLE_FAN
+        vec2(  0.5,  0.5 ), //  upper right
+        vec2( -0.5,  0.5 ), //  upper left
+        vec2( -0.5, -0.5 ), //  lower left
+        vec2(  0.5, -0.5 )  //  lower right
     ];
 
 
@@ -48,7 +53,24 @@ window.onload = function init()
 function render() {
     //  clear the screen
     gl.clear( gl.COLOR_BUFFER_BIT );
+
+    var s = Math.sin(theta);
+    var c = Math.cos(theta);
+
+    for ( var i = 0; i < 4; i++) {
+        vertices[i] = vec2(
+            c * vertices[i][0] - s * vertices[i][1],
+            s * vertices[i][0] + c * vertices[i][1]
+        )
+    }
+
+    //  Send new coordinates over to the gpu
+    gl.bufferSubData(gl.ARRAY_BUFFER, 0, flatten(vertices));
+
     
-    //  draw the array as triangles
-    gl.drawArrays( gl.TRIANGLES, 0, 3 ); 
+    //  draw the array as triangle fan
+    gl.drawArrays( gl.TRIANGLE_FAN, 0, 4 ); 
+
+    // call the next frame ~60 fps
+    window.requestAnimFrame(render);
 }

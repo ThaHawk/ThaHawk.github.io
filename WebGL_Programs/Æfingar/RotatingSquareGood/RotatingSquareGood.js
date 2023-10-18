@@ -1,4 +1,8 @@
 var gl;
+var vertices;
+var theta = 0.0;
+var thetaLoc;
+
 
 //  Execute the code when the website has finished loading
 window.onload = function init()
@@ -14,10 +18,12 @@ window.onload = function init()
 
 
     //  Create some vertices
-    var vertices = [
-        vec2(  0.0,  1.0 ),
-        vec2(  1.0,  0.0 ),
-        vec2( -1.0,  0.0 )
+    vertices = [
+        //  use TRIANGLE_FAN
+        vec2(  0.5,  0.5 ), //  upper right
+        vec2( -0.5,  0.5 ), //  upper left
+        vec2( -0.5, -0.5 ), //  lower left
+        vec2(  0.5, -0.5 )  //  lower right
     ];
 
 
@@ -41,6 +47,10 @@ window.onload = function init()
     gl.vertexAttribPointer( vPosition, 2, gl.FLOAT, false, 0, 0 );
     gl.enableVertexAttribArray( vPosition );
 
+
+    //  get location of theta 
+    thetaLoc = gl.getUniformLocation(program, "theta");
+
     //  Call the render function which will display our program
     render();
 }
@@ -48,7 +58,16 @@ window.onload = function init()
 function render() {
     //  clear the screen
     gl.clear( gl.COLOR_BUFFER_BIT );
-    
-    //  draw the array as triangles
-    gl.drawArrays( gl.TRIANGLES, 0, 3 ); 
+
+    //  change the theta
+    theta += 0.01;
+
+    // Send the new uniform var to vertex shader
+    gl.uniform1f( thetaLoc, theta );
+
+    //  draw the array as triangle fan
+    gl.drawArrays( gl.TRIANGLE_FAN, 0, 4 ); 
+
+    // call the next frame (60 fps)
+    window.requestAnimFrame(render);
 }

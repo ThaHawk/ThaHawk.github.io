@@ -5,11 +5,12 @@
 attribute vec4 vPosition;
 
 uniform mat4 translation;
+uniform mat4 projection;
 
 void
 main()
 {
-    gl_Position = vPosition * translation;
+    gl_Position = projection * translation * vPosition ;
 }
 </script>
 
