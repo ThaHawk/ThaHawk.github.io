@@ -11,7 +11,7 @@ var color = vec4( 1.0, 0.0, 0.0, 1.0 );
 var locColor;
 var matrixLoc;
 var iniTime;
-var theta = 0.0;
+var slowMove = 0.0;
 
 window.onload = function init()
 {
@@ -21,13 +21,17 @@ window.onload = function init()
     if ( !gl ) { alert( "WebGL isn't available" ); }
 
     var vertices = [    
-        vec2( -0.5, -0.5 ), 
-        vec2( 0.0, 0.5 ), 
-        vec2( 0.5, -0.5 )
+        vec2( 0.5 , 0.0 ),
+        vec2( 0.2 , -0.2 ),
+        vec2( 0.2 , 0.2 ),
+        // fan box
+        vec2( 0.2 , -0.2 ),
+        vec2( 0.2 , 0.2 ),
+        vec2( -0.2 , 0.2 ),
+        vec2( -0.2 , -0.2)
     ];
 
     //  Configure WebGL
-
     gl.viewport( 0, 0, canvas.width, canvas.height );
     gl.clearColor( 0.95, 1.0, 1.0, 1.0 );
     
@@ -62,25 +66,18 @@ window.onload = function init()
 function render() {
     gl.clear( gl.COLOR_BUFFER_BIT );
 
+    slowMove += 0.01;
     // add some translation
     var mv = mat4();
-    mv = mult( mv, rotateZ( theta ) );
-    theta += 0.5;
-    gl.uniformMatrix4fv(matrixLoc, false, flatten(mv));
+    mv = mult( mv, translate( 0.0, slowMove, 0.0 ) );
+    mv = mult( mv, rotateZ( 90 ) );
+    
+    gl.uniformMatrix4fv( matrixLoc, false, flatten(mv) );
 
-    
-    var msek = Date.now() - iniTime; // milliseconds since we started program
-    //console.log(Math.floor(msek / 1000)); // second counter
-    if (Math.floor(msek / 1000) % 2)
-        color = vec4( 1.0, 1.0, 1.0, 1.0 );
-    else
-        color = vec4( 1.0, 0.0, 0.0, 1.0 );
-    
-    gl.uniform4fv(locColor, flatten(color)); // send color to fragment shader
-    
-    gl.uniform4fv( locColor, flatten(color) );
+    gl.uniform4fv(locColor, flatten(color));    // send color to fragment shader
 
-    gl.drawArrays( gl.TRIANGLES, 0, 3 ); // draw triangle
+    gl.drawArrays( gl.TRIANGLES, 0, 3 );        // draw triangle
+    gl.drawArrays( gl.TRIANGLE_FAN, 3, 4 );     // draw square
     
     window.requestAnimFrame(render);
 }
