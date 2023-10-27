@@ -1,3 +1,4 @@
+var canvas;
 var gl;
 
 //  Execute the code when the website has finished loading
@@ -5,7 +6,7 @@ window.onload = function init()
 {
 
     //  set up the canvas that the user sees
-    var canvas = document.getElementById( "gl-canvas" );
+    canvas = document.getElementById( "gl-canvas" );
 
     //  Tells us if it failed to set up the canvas/WebGL
     gl = WebGLUtils.setupWebGL( canvas );
