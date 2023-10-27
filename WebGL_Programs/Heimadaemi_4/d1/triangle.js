@@ -49,7 +49,7 @@ window.onload = function init()
 
     // Associate shader variables with our data buffer
     var vPosition = gl.getAttribLocation( program, "vPosition" );
-    gl.vertexAttribPointer( vPosition, 4, gl.FLOAT, false, 0, 0 );
+    gl.vertexAttribPointer( vPosition, 2, gl.FLOAT, false, 0, 0 );
     gl.enableVertexAttribArray( vPosition );
 
     
@@ -75,11 +75,17 @@ function render() {
                      vec3(0.0, 1.0, 0.0)                    
     );
 
-    var v = vec3(0.0, 11.0, 0.0);
+    mv = mat3();
 
-    mv = mult( mv, translate(v) );
+    var m = mat3(
+        0, -1, 1,
+        1,  0, 1,
+        0,  0, 1
+        );
+
+    mv = mult( mv, m );
     
-    gl.uniformMatrix4fv( matrixLoc, false, flatten(mv) );
+    gl.uniformMatrix3fv( matrixLoc, false, flatten(mv) );
 
 
     gl.drawArrays( gl.TRIANGLES, 0, 3 );        // draw triangle
