@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+}
+
+header, .realHeader {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 169, 222);
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.realHeader {position:fixed;}
+
+header > h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
+main {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li a {
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    display: block;
+    padding-top: 0;
+    padding: 2em 0;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgb(37, 37, 37);
+    border-bottom: 1px solid rgb(154, 154, 154);
+    background-size: cover;
+    background-position: center;
+}
+
+/* stroke text from ChatGPT-3.5 */
+/* Apply to as class */
+.stroked-text {
+    color: rgb(255, 255, 255); /* Set the text color */
+    -webkit-text-stroke: 1px black; /* For Safari/Chrome */
+    text-stroke: 1px black; /* For Firefox */
+    font-size: 2em; /* Set the font size */
+  }
