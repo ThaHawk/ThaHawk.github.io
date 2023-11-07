@@ -29,7 +29,7 @@ h1 {font-family: 'Minecraft Bold';}
     background-image: url('img/button.png');
     background-size: 100% 100%;
     display: flex;
-    padding: 0;
+    padding: 32px 0;
     margin: 0;
     position: static;
     border: none;
