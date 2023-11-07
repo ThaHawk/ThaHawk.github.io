@@ -12,6 +12,7 @@ header, .realHeader {
     top: 0;
     width: 100%;
     text-align: center;
+    border-bottom: 2px solid black;
 }
 .realHeader {position:fixed;}
 
