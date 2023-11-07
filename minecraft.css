@@ -55,3 +55,10 @@ img {
     width: 100%;
     display: block;
 }
+
+.base {
+    display: block;
+    background-image: url("img/recipe_book.png");
+    background-size: 100% 100%;
+    padding: 5em;
+}
