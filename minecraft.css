@@ -21,8 +21,8 @@
 
 /* -------------------- Font end -----------------------------*/
 
-header, .realHeader {background-color: rgb(16, 13, 208);}
-h1 {font-family: 'Minecraft Bold';}
+header, .realHeader {background-color: rgb(17, 2, 83);}
+h1 {font-family: 'Minecraft Bold';color:white;}
 
 .navButton {
     font-family: 'Minecraft';
@@ -56,9 +56,36 @@ img {
     display: block;
 }
 
+.pageTitle {
+    background-image: url('img/oak_log.jpg');
+    background-repeat: repeat;
+    background-size: 10%;
+    width: 100%;
+    color: white;
+    font-size: 4em;
+    padding: 1em 0;
+}
+
+.base h3 {
+    font-size: 4em;
+    padding: 0.5em 0;
+    margin: 0;
+    background-color: rgb(0, 35, 100);
+    color: white;
+    width: 100%;
+}
+
+/*Curved Border around each players base*/
+.base h3 {border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.base img {border-bottom-left-radius: 10px;border-bottom-left-radius: 10px;}
+
+
 .base {
+    background-image: url('img/oak_plank.jpg');
+    background-repeat: repeat;
+    background-size: 25% 25%;
     display: block;
-    background-image: url("img/recipe_book.png");
-    background-size: 100% 100%;
-    padding: 5em;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
 }
