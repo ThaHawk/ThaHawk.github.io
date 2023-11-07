@@ -18,7 +18,7 @@ header, .realHeader {
 }
 .realHeader {position:fixed;}
 
-header > h1 {
+h1 {
     margin: 0 auto;
     padding: 0;
     width: 90%;
@@ -60,7 +60,6 @@ li {
 
 li a {
     font-family:'Courier New', Courier, monospace;
-    font-size: xx-large;
     display: block;
     padding-top: 0;
     padding: 0;
