@@ -13,6 +13,11 @@
     font-weight: Italic;
     src: url("fonts/MinecraftBoldItalic.otf") format("opentype");
 }
+@font-face {
+    font-family: 'Minecraft Italic';
+    font-weight: Italic;
+    src: url("fonts/MinecraftItalic.otf") format("opentype");
+}
 
 h1 a {
     font-family: 'Minecraft Bold';
