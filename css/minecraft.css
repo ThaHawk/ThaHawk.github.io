@@ -26,7 +26,7 @@ h1 {font-family: 'Minecraft Bold';color:white;}
 
 .navButton {
     font-family: 'Minecraft';
-    background-image: url('../_images/button.png');
+    background-image: url('../images/button.png');
     background-size: 100% 100%;
     display: flex;
     padding: 32px 0;
@@ -57,7 +57,7 @@ img {
 }
 
 .pageTitle {
-    background-image: url('../_images/oak_log.jpg');
+    background-image: url('../images/oak_log.jpg');
     background-repeat: repeat;
     background-size: 10%;
     width: 100%;
@@ -81,7 +81,7 @@ img {
 
 
 .base {
-    background-image: url('../_images/oak_plank.jpg');
+    background-image: url('../images/oak_plank.jpg');
     background-repeat: repeat;
     background-size: 25% 25%;
     display: block;
