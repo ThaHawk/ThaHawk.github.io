@@ -6,6 +6,14 @@ function expandYear(y) {
       x.style.display = "none";
     }
 };
+
+
+function toggleMenu() {
+    var menu = document.getElementById("myMenu");
+    menu.classList.toggle("visible");
+}
+
+
 /*
 function switchView() {
     var[] x = document.getElementsBy("grid-container year2023");

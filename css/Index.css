@@ -8,6 +8,7 @@ header, .realHeader {
     font-size: 2em;
     margin: 0;
     padding: 0;
+    padding-top: 0.5em;
     background-color: rgb(0, 35, 100);
     top: 0;
     width: 100%;
@@ -34,7 +35,7 @@ header a {
 }
 
 main {
-    margin-top: 0;
+    margin-top: 194.4px;
     padding-top: 0;
 }
 
@@ -82,3 +83,30 @@ li a {
     text-stroke: 2px black; /* For Firefox */
     font-size: 2em; /* Set the font size */
   }
+
+
+/* Hamburger stuff*/
+.title {
+    margin: 0;
+    padding: 0;
+    float: center;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    font-size: 4em;
+    float: right;
+    color: white;
+    margin-right: 16px;
+}
+
+#myMenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Add transition property */
+}
+
+
+#myMenu.visible {
+    max-height: 500px; /* Adjust the maximum height according to your content */
+}
