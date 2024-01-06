@@ -91,15 +91,14 @@ li a {
 
 .menu-toggle {
     cursor: pointer;
-    font-size: 6em;
-    float: right;
     color: white;
-    margin-right: 32px;
-    height: 152px;
-    display: flex;
+    position: fixed;
+    right: 10px;
+    top: 70px;
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    max-height: 152px;
 
 }
 
