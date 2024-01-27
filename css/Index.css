@@ -217,16 +217,17 @@ nav li a {
     background: rgb(85,107,47);
     background: linear-gradient(0deg, rgba(85,107,47,1) 0%, rgba(33,42,18,1) 100%);
     /* Text */
-    text-align: left;
+    text-align: center;
     color: white;
     font-family:'Courier New', Courier, monospace;
 }
 
 .myInfoText {
     /* Margin, Padding & Border */
-    margin: 16px;
+    margin: 16px auto;
     padding: 0;
     /* Position & Size */
+    max-width: 1280px;
     display: block;
     /* Appearance*/
     /* Text */
@@ -251,17 +252,18 @@ nav li a {
     /* Appearance*/
     /* Text */
     text-align: center;
+    font-size: 4rem;
 }
-.myInfo ul {
+.myInfo ul, p, h3 {
     /* Margin, Padding & Border */
-    margin: 32px;
+    margin: 0 16px;
     padding: 0;
-    padding-left: 2em;
     /* Position & Size */
     /* Appearance*/
     /* Text */
-    text-align: left;
+    list-style-type: none;
 }
+
 .myInfo li {
     /* Margin, Padding & Border */
     margin: 0;
@@ -271,27 +273,13 @@ nav li a {
     /* Appearance*/
     /* Text */
 }
-.myInfo h3 {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
 
-    /* Position & Size */
-    /* Appearance*/
-    /* Text */
-}
-.myInfo p {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
 
-    /* Position & Size */
-    /* Appearance*/
-    /* Text */
-}
 
+/*----------- Debug mode -----------*/
 /*
 .myInfo {background-color: yellow;}
+.myInfoText{background-color: magenta;}
 .myInfo h1 {background-color: red;}
 .myInfo ul{background-color: blue;}
 .myInfo h3{background-color: green;}
