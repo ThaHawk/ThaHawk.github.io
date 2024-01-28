@@ -7,12 +7,18 @@ function expandYear(y) {
     }
 };
 
-
+/*
 function toggleMenu() {
     var menu = document.getElementById("myMenu");
     menu.classList.toggle("visible");
 }
+*/
 
+
+function toggleMenu(x) {
+    var menu = document.getElementById(x);
+    menu.classList.toggle("visible");
+}
 
 /*
 function switchView() {

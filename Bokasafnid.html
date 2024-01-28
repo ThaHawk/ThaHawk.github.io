@@ -2,316 +2,339 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/bokasafnid.css">
     <script src="scripts/scripts.js"></script>
     <meta charset="utf-8">
     <title>Arnoringi.is</title>
   </head>
-  <body class="bokasafn">
+  <body>
     <header>
-      <h1><a href="Bókasafnið.html">arnoringi.is / Bókasafnið</a></h1>
-      <nav>
-          <ul>
-            <li onclick="switchView()"><a>Breyta Vimóti</a></li>
-            <li><a href="#">Bæta við bók</a></li>
-            <li><a href="index.html">Viðgerðir</a></li>
-          </ul>
-      </nav>
+      <a class="menu-toggle .noselect" onclick="toggleMenu('myMenu')">≡</a>
+      <a class="title" href="index.html"><h1>arnoringi.is</h1></a>
+      <a class="title" href="index.html"><h1>Bókasafnið</h1></a>
     </header>
     <main>
-      
+      <nav id="myMenu">
+        <ul>
+          <li>
+            <a class="navButton" href="minecraft.html">
+              Server&#12296;
+            </a>
+          </li>
+          <li>
+            <a class="navButton" href="Bokasafnid.html">
+                Bókasafnið&#12296;
+            </a>
+          </li>
+          <li>
+            <a class="navButton" href="vidgerdir.html">
+                Viðgerðir&#12296;</a>
+          </li>
+        </ul>
+      </nav>
 
-      <h1 onclick="expandYear(2024)">2024 &#10606;</h1>
-      <div id="2024" class="grid-container year2024">
+
+
+      <h1 onclick="toggleMenu('year2024')">2024 &#10606;</h1>
+      <div id="year2024" class="grid-container year2024">
 
 
         <div class="grid-item">
-          <img src="images/book_mistborn_the_final_empire.jpg">
-          <div class="text">
-            <h2>Mistborn: The Final Empire</h2>
-            <h4>Byrjaði: 8. desember 2024</h4>
-            <h4>Kláraði: N/A</h4>
-            <h4>Samtals: x dagar</h4>
-            <p>
-              Ókláruð
-            </p>
+          <h1>Mistborn: The Final Empire</h1>
+          <div class="cover">
+            <img src="images/book_mistborn_the_final_empire.jpg">
+            <div>  
+              <h2>Byrjaði: 8. janúar 2024</h2>
+              <h2>Kláraði: N/A</h2>
+              <h2>Samtals: x dagar</h2>
+            </div>
           </div>
+          <p>
+            Ókláruð
+          </p>
         </div>
 
       </div>
 
 
 
-      <h1 onclick="expandYear(2023)">2023 &#10606;</h1>
-      <div id="2023" class="grid-container year2023">
+      <h1 onclick="toggleMenu('year2023')">2023 &#10606;</h1>
+      <div id="year2023" class="grid-container year2023">
 
 
         <div class="grid-item">
-          <img src="images/book_defining_decade.jpg">
+          <h1>The Defining Decade: Why Your twenties matter- and how to make the most of them now</h1>
+          
           <div class="text">
-            <h2>The Defining Decade: Why Your twenties matter- and how to make the most of them now</h2>
-            <h4>Byrjaði: 3. desember 2023</h4>
-            <h4>Kláraði: 30. desember 2023</h4>
-            <h4>Samtals: 28 dagar</h4>
+          <img src="images/book_defining_decade.jpg">
+            <h2>Byrjaði: 3. desember 2023</h2>
+            <h2>Kláraði: 30. desember 2023</h2>
+            <h2>Samtals: 28 dagar</h2></div>
             <p>Þessi bók fjallar um af hverju tvítugs aldurinn er sá mikilvægasti til að byrja lífið</p>
             <p>Rosalega góð ég gef henni</p>
             <p>Rating: ★★★★★★★★★☆ (9 / 10)</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>The Murder of Roger Ackroyd</h1>
           <img src="images/book_muder_of_roger_ackroyd.jpg">
           <div class="text">
-            <h2>The Murder of Roger Ackroyd</h2>
-            <h4>Byrjaði: 24. september 2023</h4>
-            <h4>Kláraði: 7. janúar 2024</h4>
-            <h4>Samtals: 106 dagar</h4>
+            <h2>Byrjaði: 24. september 2023</h2>
+            <h2>Kláraði: 7. janúar 2024</h2>
+            <h2>Samtals: 106 dagar</h2></div>
             <p>Klassík Agatha Cristie Bók sem hélt er vel skrifuð og spennandi</p>
             <p>Ég tók mér pásu inná milli og las aðrar bækur en kláraði loksins og naut mín konunglega</p>
             <p>Rating: ★★★★★★★★☆☆ (8 / 10)</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Words of Radiance</h1>
           <img src="images/book-words-of-radiance.jpg">
           <div class="text">
-            <h2>Words of Radiance</h2>
-            <h4>Byrjaði: 04. september 2023</h4>
-            <h4>Kláraði: ???</h4>
-            <h4>Samtals: ???</h4>
+            <h2>Byrjaði: 04. september 2023</h2>
+            <h2>Kláraði: ???</h2>
+            <h2>Samtals: ???</h2></div>
             <p>Næsta bók í stormlight archive</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Meditations</h1>
           <img src="images/book-meditations.jpg">
           <div class="text">
-            <h2>Meditations</h2>
-            <h4>Byrjaði: 16. ágúst 2023</h4>
-            <h4>Kláraði: 30. ágúst 2023</h4>
-            <h4>Samtals: 15 dagar</h4>
+            <h2>Byrjaði: 16. ágúst 2023</h2>
+            <h2>Kláraði: 30. ágúst 2023</h2>
+            <h2>Samtals: 15 dagar</h2></div>
             <p>Áhugaverð bók um heimspeki frá fyrrum keisara Rómaveldis frá 161-180 AD</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Draumaland</h1>
           <img src="images/Draumaland.jpeg">
           <div class="text">
-            <h2>Draumaland</h2>
-            <h4>Byrjaði: 23. júlí 2023</h4>
-            <h4>Kláraði: 13. ágúst 2023</h4>
-            <h4>Samtals: 22 dagar</h4>
+            <h2>Byrjaði: 23. júlí 2023</h2>
+            <h2>Kláraði: 13. ágúst 2023</h2>
+            <h2>Samtals: 22 dagar</h2> </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+         
         </div>
 
         <div class="grid-item">
+          <h1>Why We Sleep: Unlocking the Power of Sleep and Dreams</h1>
           <img src="images/book-why-we-sleep.jpg">
           <div class="text">
-            <h2>Why We Sleep: Unlocking the Power of Sleep and Dreams</h2>
-            <h4>Byrjaði: 12. júní 2023</h4>
-            <h4>Kláraði: 19. júlí 2023</h4>
-            <h4>Samtals: 38 dagar</h4>
+            <h2>Byrjaði: 12. júní 2023</h2>
+            <h2>Kláraði: 19. júlí 2023</h2>
+            <h2>Samtals: 38 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Way of Kings Part II</h1>
           <img src="images/the-way-of-kings-part-2.jpg">
           <div class="text">
-            <h2>Way of Kings Part II</h2>
-            <h4>Byrjaði: 6. maí 2023</h4>
-            <h4>Kláraði: 11. júlí 2023</h4>
-            <h4>Samtals: 66 dagar</h4>
+            <h2>Byrjaði: 6. maí 2023</h2>
+            <h2>Kláraði: 11. júlí 2023</h2>
+            <h2>Samtals: 66 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Auking Gæði Náms: Skólaþróun í þágu nemenda</h1>
           <img src="images/book-AGN.png">
           <div class="text">
-            <h2>Auking Gæði Náms: Skólaþróun í þágu nemenda</h2>
-            <h4>Byrjaði: 23. júní 2023</h4>
-            <h4>Kláraði: 7. júlí 2023</h4>
-            <h4>Samtals: 15 dagar</h4>
+            <h2>Byrjaði: 23. júní 2023</h2>
+            <h2>Kláraði: 7. júlí 2023</h2>
+            <h2>Samtals: 15 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Brief Answers to the Big Questions</h1>
           <img src="images/book-brief-answers-to-the-big-questions.jpg">
           <div class="text">
-            <h2>Brief Answers to the Big Questions</h2>
-            <h4>Byrjaði: 26. júní 2023</h4>
-            <h4>Kláraði: 28. júní 2023</h4>
-            <h4>Samtals: 3 dagar</h4>
+            <h2>Byrjaði: 26. júní 2023</h2>
+            <h2>Kláraði: 28. júní 2023</h2>
+            <h2>Samtals: 3 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>The Power of Habit</h1>
           <img src="images/book-habits.jpg">
           <div class="text">
-            <h2>The Power of Habit</h2>
-            <h4>Byrjaði: 06. júní 2023</h4>
-            <h4>Kláraði: 20. júní 2023</h4>
-            <h4>Samtals: 15 dagar</h4>
+            <h2>Byrjaði: 06. júní 2023</h2>
+            <h2>Kláraði: 20. júní 2023</h2>
+            <h2>Samtals: 15 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Make it Stick: The Science of Successful Learning</h1>
           <img src="images/book-make-it-stick.jpg">
           <div class="text">
-            <h2>Make it Stick: The Science of Successful Learning</h2>
-            <h4>Byrjaði: 24. apríl 2023</h4>
-            <h4>Kláraði: 05. maí 2023</h4>
-            <h4>Samtals: 12 dagar</h4>
+            <h2>Byrjaði: 24. apríl 2023</h2>
+            <h2>Kláraði: 05. maí 2023</h2>
+            <h2>Samtals: 12 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Way of Kings Part I</h1>
           <img src="images/book-way-of-kings-part-1.jpg">
           <div class="text">
-            <h2>Way of Kings Part I</h2>
-            <h4>Byrjaði: maí 2021</h4>
-            <h4>Kláraði: 5. maí 2023</h4>
-            <h4>Samtals: 2 ár</h4>
+            <h2>Byrjaði: maí 2021</h2>
+            <h2>Kláraði: 5. maí 2023</h2>
+            <h2>Samtals: 2 ár</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>The Richest Man in Babylon</h1>
           <img src="images/book-richest-man-in-babylon.jpg">
           <div class="text">
-            <h2>The Richest Man in Babylon</h2>
-            <h4>Byrjaði: 19. apríl 2023</h4>
-            <h4>Kláraði: 26. apríl 2023</h4>
-            <h4>Samtals: 8 dagar</h4>
+            <h2>Byrjaði: 19. apríl 2023</h2>
+            <h2>Kláraði: 26. apríl 2023</h2>
+            <h2>Samtals: 8 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Grit: The Power of Passion and Perserverance</h1>
           <img src="images/book-grit.jpg">
           <div class="text">
-            <h2>Grit: The Power of Passion and Perserverance</h2>
-            <h4>Byrjaði: 11. apríl 2023</h4>
-            <h4>Kláraði: 24. apríl 2023</h4>
-            <h4>Samtals: 14 dagar</h4>
+            <h2>Byrjaði: 11. apríl 2023</h2>
+            <h2>Kláraði: 24. apríl 2023</h2>
+            <h2>Samtals: 14 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Nature Wants Us to Be Fat</h1>
           <img src="images/book-nature-wants-us-to-be-fat.jpg">
           <div class="text">
-            <h2>Nature Wants Us to Be Fat</h2>
-            <h4>Byrjaði: 21. mars 2023</h4>
-            <h4>Kláraði: 29. mars 2023</h4>
-            <h4>Samtals: 9 dagar</h4>
+            <h2>Byrjaði: 21. mars 2023</h2>
+            <h2>Kláraði: 29. mars 2023</h2>
+            <h2>Samtals: 9 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
       </div>
-      <h1 onclick="expandYear(2022)">2022 &#10606;</h1>
-      <div id="2022" class="grid-container  year2022">
+
+      <h1 onclick="toggleMenu('year2022')">2022 &#10606;</h1>
+      <div id="year2022" class="grid-container year2022">
 
       
         <div class="grid-item">
+          <h1>Witcher: Babtism of Fire</h1>
           <img src="images/book-witcher-baptism-of-fire.jpg">
           <div class="text">
-            <h2>Witcher: Babtism of Fire</h2>
-            <h4>Byrjaði: 24. ágúst 2022</h4>
-            <h4>Kláraði: 2. október 2022</h4>
-            <h4>Samtals: 40 dagar</h4>
+            <h2>Byrjaði: 24. ágúst 2022</h2>
+            <h2>Kláraði: 2. október 2022</h2>
+            <h2>Samtals: 40 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Witcher: Time of Contempt</h1>
           <img src="images/book-witcher-time-of-contempt.jpg">
           <div class="text">
-            <h2>Witcher: Time of Contempt</h2>
-            <h4>Byrjaði: 15. febrúar 2022</h4>
-            <h4>Kláraði: 24. ágúst 2022</h4>
-            <h4>Samtals: 191 dagar</h4>
+            <h2>Byrjaði: 15. febrúar 2022</h2>
+            <h2>Kláraði: 24. ágúst 2022</h2>
+            <h2>Samtals: 191 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
         
         <div class="grid-item">
+          <h1>Witcher: Blood of Elves</h1>
           <img src="images/book-witcher-blood-of-elves.jpg">
           <div class="text">
-            <h2>Witcher: Blood of Elves</h2>
-            <h4>Byrjaði: 11. nóvember 2021</h4>
-            <h4>Kláraði: 21. janúar 2022</h4>
-            <h4>Samtals: 71 dagar</h4>
+            <h2>Byrjaði: 11. nóvember 2021</h2>
+            <h2>Kláraði: 21. janúar 2022</h2>
+            <h2>Samtals: 71 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
 
         
       </div>
 
-      <h1 onclick="expandYear(2021)">2021 &#10606;</h1>
-      <div id="2021" class="grid-container year2021">
+      <h1 onclick="toggleMenu('year2021')">2021 &#10606;</h1>
+      <div id="year2021" class="grid-container year2021">
 
         
         <div class="grid-item">
+          <h1>Dune</h1>
           <img src="images/book-dune.jpg">
           <div class="text">
-            <h2>Dune</h2>
-            <h4>Byrjaði: 25. desember 2020</h4>
-            <h4>Kláraði: 11. janúar 2021</h4>
-            <h4>Samtals: 18 dagar</h4>
+            <h2>Byrjaði: 25. desember 2020</h2>
+            <h2>Kláraði: 11. janúar 2021</h2>
+            <h2>Samtals: 18 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
         
         <div class="grid-item">
+          <h1>Witcher: Sword of Destiny</h1>
           <img src="images/book-witcher-sword-of-destiny.jpg">
           <div class="text">
-            <h2>Witcher: Sword of Destiny</h2>
-            <h4>Byrjaði: 7. apríl 2021</h4>
-            <h4>Kláraði: 1. september 2021</h4>
-            <h4>Samtals: 148 dagar</h4>
+            <h2>Byrjaði: 7. apríl 2021</h2>
+            <h2>Kláraði: 1. september 2021</h2>
+            <h2>Samtals: 148 dagar</h2></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
-          </div>
+          
         </div>
         
         <div class="grid-item">
+          <h1>Witcher: The Last Wish</h1>
           <img src="images/book-witcher-the-last-wish.jpg">
           <div class="text">
-            <h2>Witcher: The Last Wish</h2>
-            <h4>Byrjaði: 16. mars 2021</h4>
-            <h4>Kláraði: 4. apríl 2021</h4>
-            <h4>Samtals: 20 dagar</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
+            <h2>Byrjaði: 16. mars 2021</h2>
+            <h2>Kláraði: 4. apríl 2021</h2>
+            <h2>Samtals: 20 dagar</h2>
           </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
+          
         </div>
 
         <div class="grid-item">
+          <h1>Odyssey</h1>
           <img src="images/book-odyssey.webp">
-          <div class="text">
-            <h2>Odyssey</h2>
-            <h4>Byrjaði: 22. janúar 2021</h4>
-            <h4>Kláraði: 16. mars 2021</h4>
-            <h4>Samtals: 54 dagar</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
+          <div>
+            <h2>Byrjaði: 22. janúar 2021</h2>
+            <h2>Kláraði: 16. mars 2021</h2>
+            <h2>Samtals: 54 dagar</h2>
           </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
+          
         </div>
 
         <div class="grid-item">
-          <img src="images/book-the-remaining.jpg">
-          <div class="text">
-            <h2>The Remainging</h2>
-            <h4>Byrjaði: 12. janúar 2021</h4>
-            <h4>Kláraði: 21. janúar 2021</h4>
-            <h4>Samtals: 10 dagar</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>
+          <h1>The Remainging</h1>
+          <div class="cover">
+            <img src="images/book-the-remaining.jpg">
+            <div>
+              <h2>Byrjaði: 12. janúar 2021</h2>
+              <h2>Kláraði: 21. janúar 2021</h2>
+              <h2>Samtals: 10 dagar</h2>
+            </div>
           </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sint dolore adipisci quam totam. Dignissimos, fugiat voluptatibus hic possimus reprehenderit repellendus odit eaque ex numquam velit sequi doloribus ut delectus.</p>  
         </div>
 
       </div>
@@ -319,7 +342,7 @@
 
     </main>
     <footer>
-      <h2>Mínar Bækur</h2>
+      <h1>Mínar Bækur</h1>
     </footer>
   </body>
 </html>

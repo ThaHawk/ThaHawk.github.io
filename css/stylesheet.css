@@ -1,177 +1,189 @@
-:root {
-    --headerBlue: #68cced;
-    --backgroundBlue: #b5e5f5;
-    --headerGreen: #19e66e;
-    --backgroundGreen: #7ad67a;
+.cssTemplate {
+    /* Margin, Padding & Border */
+    /* Position & Size */
+    /* Appearance*/
+    /* Text */
+}
+html {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: var(--backgroundBlue);
-    padding: 0;
+    /* Margin, Padding & Border */
     margin: 0;
+    padding: 0;
+    
+    /* Appearance*/
 }
 
 header {
-    background: rgb(0,224,255);
-    background: radial-gradient(circle, 
-    rgba(0,224,255,1) 0%, 
-    rgba(0,117,255,1) 100%);
-    /*background-color: var(--headerBlue);*/
-    width: 100%;
+    /* Margin, Padding & Border */
     margin: 0;
     padding: 0;
-    position: fixed;
+    border-bottom: 2px solid black;
+
+    /* Position & Size */
     top: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+    position:fixed;
+    z-index: 1;
+    width: 100%;
 
-nav {
-    align-items: right;
-    margin: 0;
-    padding: 0;
-    width:100%;
-}
-header h1 {
-    margin-left: 1em;
-}
-a {
-    text-decoration: none;
-    color:black;
-    white-space: nowrap;
-}
+    /* Appearance*/
 
-main {
-    display: block;
-    overflow: hidden;
-    margin-top: 85px;
-}
-
-h2 {
-    border-bottom: 1px solid black;
+    /* Text */
+    font-size: 2em;
     text-align: center;
-}
-
-main h1 {
-    text-align: center;
-    background-color:white;
-    margin: 0 4px 4px 4px;
-    padding: 0.5em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-p {margin: 8px;}
-
-ul {
-    margin:0;
-    padding:0;
-    float: right;
-    margin-right: 2em;
-}
-
-li {
-    float: right;
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-li > a {
-    display: block;
-    height: 100%;
-    text-decoration: none;
-    padding: 0.5em;
-    color: black;
-    font-size: 1.5em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-span {
-    margin: 0;
-    padding: 0;
-}
-
-a:hover {
-    color: var(--backgroundBlue);
-}
-
-.book > .frame {
-    background-color: transparent;
 }
 
 footer {
-    float: left;
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid black;
+
+    /* Position & Size */
+    bottom: 0;
     width: 100%;
-    background: rgb(0,224,255);
-    background: radial-gradient(circle, 
-    rgba(0,224,255,1) 0%, 
-    rgba(0,117,255,1) 100%);
+
+    /* Appearance*/
+
+    /* Text */
+    font-size: 2em;
+    text-align: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-    margin: 4px;
-}
 
-.grid-item {
-    display: flex;
-    align-items: center;
+header h1 {
+    /* Margin, Padding & Border */
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
-    background-color: white;
+    
+    /* Text */
+    text-align: center;
 }
 
-.grid-item h4 {
-    margin: 0 10px;
-}
-
-.grid-item p {
-    padding: 0;
-    margin: 10px;
-    margin-top: 0;
-}
-
-.grid-item img {
-    width: 50%;
-    padding: 0;
-    margin:  0;
-}
-
-.text {
-    width: 50%;
-    height: 100%;
-    border: none;
+header a {
+    /* Margin, Padding & Border */
     margin: 0;
     padding: 0;
+
+    /* Text */
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
 }
 
-.bokasafn {
-    background-color: black;
+main {
+    /* Margin, Padding & Border */
+    margin-top: 230px; /* Prevents contend from being hidden*/
+    padding-top: 0;
 }
 
-.bokasafn header, .bokasafn footer{
-    background-color: var(--headerGreen);
+nav {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+    /* Appearance*/
+    /* Text */
 }
 
-
-.index {
-    padding: 10% 25%;
+nav ul {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+    /* Text */
+    text-align: center;
 }
 
-.index .grid-item {
+nav li {
+    /* Margin, Padding & Border */
+    padding: 0;
+    margin: 0;
+    /* Appearance */
+    overflow: hidden;
+    /* Text */
+    list-style: none;
+}
+
+nav li a {
+    /* Margin, Padding & Border */
+    padding: 0 60px 0 0;
+    /* Appearance*/
+    display: block;
     background-size: cover;
-    padding: 32px;
+    background-position: center;
+    /* Text */
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 120px;
+    text-align: right;
 }
-.index .grid-item h2 {
+
+/* Hamburger stuff*/
+.title {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+    /* Position & Size */
     width: 100%;
-    border: none;
-    color: white;
-    background-color:rgba(0,0,0,0.5);
+    /* Appearance*/
+    /* Text */
+    font-size: 3rem;
 }
+
+.title h1 {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+    /* Position & Size */
+    /* Appearance*/
+    /* Text */
+    text-align: center;
+}
+.title h2 {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+    /* Position & Size */
+    /* Appearance*/
+    /* Text */
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.menu-toggle {
+    /* Margin, Padding & Border */
+    margin: 0;
+    padding: 0;
+
+    /* Position & Size */
+    float: right;
+
+    /* Appearance */
+    cursor: pointer;
+    font-size: 10rem;
+}
+
+
+.noselect { /*  */
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+#myMenu {
+    /* Position & Size */
+    max-height: 0;
+    /* Appearance*/
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Add transition property */
+}
+
+#myMenu.visible {
+    max-height: 1000px; /* Adjust the maximum height according to your content */
+}   

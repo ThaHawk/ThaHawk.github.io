@@ -1,212 +1,32 @@
-.cssTemplate {
+/*----------------------------------------------------------------*/
+/*------------------- Background Color Changes -------------------*/
+/*----------------------------------------------------------------*/
+body            {background-color: rgb(33, 42, 18)}
+header, footer  {background-color: darkolivegreen;}
+nav             {background-color: rgb(55, 70, 30);}
+
+/*----------------------------------------------------------------*/
+/*---------------------- Text Color Changes ----------------------*/
+/*----------------------------------------------------------------*/
+.title h1       {color: white}  /* arnoringi.is     */
+.title h2       {color: white}  /* undertext        */
+header          {color: white}  /* Nav button       */
+footer          {color: white}  /* footer button    */
+nav li a        {color: white}  /* Navigation text  */
+
+/*----------------------------------------------------------------*/
+/*---------------------------- Other -----------------------------*/
+/*----------------------------------------------------------------*/
+.myInfoText {
     /* Margin, Padding & Border */
+    margin: 16px auto;
+    padding: 0;
     /* Position & Size */
-    /* Appearance*/
-    /* Text */
-}
-html {
-    
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    
-    /* Appearance*/
-    background-color: rgb(33, 42, 18);
-}
-
-header {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    border-bottom: 2px solid black;
-
-    /* Position & Size */
-    top: 0;
-    position:fixed;
-    z-index: 1;
-    width: 100%;
-
-    /* Appearance*/
-    background-color: darkolivegreen;/*Color Debug*/
-
-    /* Text */
-    font-size: 2em;
-    text-align: center;
-    color: white;
-}
-
-footer {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    border-top: 2px solid black;
-
-    /* Position & Size */
-    bottom: 0;
-    width: 100%;
-
-    /* Appearance*/
-    background-color: darkolivegreen;/*Color Debug*/
-
-    /* Text */
-    font-size: 2em;
-    text-align: center;
-    color: white;
-}
-
-
-h1 {
-    /* Margin, Padding & Border */
-    margin: 0 auto;
-    padding: 0;
-    
-    /* Text */
-    text-align: center;
-}
-
-header a {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-
-    /* Text */
-    text-decoration: none;
-    font-family:'Courier New', Courier, monospace;
-}
-
-main {
-    /* Margin, Padding & Border */
-    margin-top: 230px; /* Prevents contend from being hidden*/
-    padding-top: 0;
-}
-
-nav {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-
-    /* Appearance*/
-    background-color: rgb(55, 70, 30);/*Color Debug*/
-
-    /* Text */
-}
-
-nav ul {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-
-    /* Text */
-    text-align: center;
-}
-
-nav li {
-    /* Margin, Padding & Border */
-    padding: 0;
-    margin: 0;
-
-    /* Appearance */
-    overflow: hidden;
-
-    /* Text */
-    list-style: none;
-}
-
-nav li a {
-    /* Margin, Padding & Border */
-    padding: 0 60px 0 0;
-
-    /* Appearance*/
+    max-width: 1280px;
     display: block;
-    background-size: cover;
-    background-position: center;
-    
-    /* Text */
-    font-family:'Courier New', Courier, monospace;
-    text-decoration: none;
-    font-size: 120px;
-    color: white;
-    text-align: right;
-}
-
-/* Hamburger stuff*/
-.title {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    /* Position & Size */
-    width: 100%;
-    /* Appearance*/
-    background-color: red;/*Color Debug*/
-    /* Text */
-    font-size: 3rem;
-}
-
-.title h1 {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    /* Position & Size */
     /* Appearance*/
     /* Text */
-    color: white;
-    text-align: center;
 }
-.title h2 {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    /* Position & Size */
-    /* Appearance*/
-    /* Text */
-    text-align: center;
-    font-size: 1.7em;
-    color: white;
-}
-
-.menu-toggle {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-
-    /* Position & Size */
-    float: right;
-
-    /* Appearance */
-    cursor: pointer;
-    font-size: 10rem;
-}
-
-
-.noselect { /*  */
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Old versions of Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome, Edge, Opera and Firefox */
-}
-
-#myMenu {
-    /* Position & Size */
-    max-height: 0;
-    /* Appearance*/
-    overflow: hidden;
-    transition: max-height 0.5s ease; /* Add transition property */
-}
-
-#myMenu.visible {
-    max-height: 1000px; /* Adjust the maximum height according to your content */
-}
-
-
 .myInfo {
     /* Margin, Padding & Border */
     margin: 0;
@@ -222,16 +42,6 @@ nav li a {
     font-family:'Courier New', Courier, monospace;
 }
 
-.myInfoText {
-    /* Margin, Padding & Border */
-    margin: 16px auto;
-    padding: 0;
-    /* Position & Size */
-    max-width: 1280px;
-    display: block;
-    /* Appearance*/
-    /* Text */
-}
 .myInfo img {
     /* Margin, Padding & Border */
     margin: 16px auto;
@@ -268,7 +78,6 @@ nav li a {
     /* Margin, Padding & Border */
     margin: 0;
     padding: 0;
-
     /* Position & Size */
     /* Appearance*/
     /* Text */
