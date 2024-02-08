@@ -1,9 +1,16 @@
-.cssTemplate {
+/*----------------------------------------------------------------*/
+/*-------------------------- Templpate ---------------------------*/
+/*----------------------------------------------------------------*/
+
     /* Margin, Padding & Border */
     /* Position & Size */
     /* Appearance*/
     /* Text */
-}
+
+/*----------------------------------------------------------------*/
+/*------------------------- Actual Code --------------------------*/
+/*----------------------------------------------------------------*/
+
 html {
     /* Margin, Padding & Border */
     margin: 0;
@@ -14,7 +21,6 @@ body {
     /* Margin, Padding & Border */
     margin: 0;
     padding: 0;
-    
     /* Appearance*/
 }
 
@@ -23,15 +29,12 @@ header {
     margin: 0;
     padding: 0;
     border-bottom: 2px solid black;
-
     /* Position & Size */
     top: 0;
     position:fixed;
     z-index: 1;
     width: 100%;
-
     /* Appearance*/
-
     /* Text */
     font-size: 2em;
     text-align: center;
@@ -42,13 +45,10 @@ footer {
     margin: 0;
     padding: 0;
     border-top: 2px solid black;
-
     /* Position & Size */
     bottom: 0;
     width: 100%;
-
     /* Appearance*/
-
     /* Text */
     font-size: 2em;
     text-align: center;
@@ -59,7 +59,6 @@ header h1 {
     /* Margin, Padding & Border */
     margin: 0 auto;
     padding: 0;
-    
     /* Text */
     text-align: center;
 }
@@ -68,7 +67,6 @@ header a {
     /* Margin, Padding & Border */
     margin: 0;
     padding: 0;
-
     /* Text */
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
