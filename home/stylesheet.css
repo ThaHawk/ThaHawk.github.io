@@ -1,8 +1,9 @@
 /*----------------------------------------------------------------*/
 /*------------------- Background Color Changes -------------------*/
 /*----------------------------------------------------------------*/
-body            {background-color: rgb(33, 42, 18)}
-header, footer  {background-color: darkolivegreen;}
+
+/*body            {background-color: rgb(33, 42, 18)}*/
+header, footer, body  {background-color: darkolivegreen;}
 nav             {background-color: rgb(55, 70, 30);}
 
 
@@ -37,7 +38,7 @@ nav li a        {color: white}  /* Navigation text  */
     display: block;
     /* Appearance*/
     background: rgb(85,107,47);
-    background: linear-gradient(0deg, rgba(85,107,47,1) 0%, rgba(33,42,18,1) 100%);
+    background: linear-gradient(180deg, rgba(85,107,47,1) 0%, rgba(33,42,18,1) 100%);
     /* Text */
     text-align: center;
     color: white;

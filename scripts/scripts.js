@@ -15,9 +15,11 @@ function toggleMenu() {
 */
 
 
-function toggleMenu(x) {
-    var menu = document.getElementById(x);
+function toggleClass(x) {
+    let classText = "." + x;
+    const menu = document.querySelector(classText);
     menu.classList.toggle("visible");
+    //console.log("Attempted to toggle " + classText);
 }
 
 /*

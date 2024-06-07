@@ -36,8 +36,8 @@ header {
     width: 100%;
     /* Appearance*/
     /* Text */
-    font-size: 2em;
     text-align: center;
+    font-size: 48px;
 }
 
 footer {
@@ -60,7 +60,6 @@ header h1 {
     margin: 0 auto;
     padding: 0;
     /* Text */
-    text-align: center;
 }
 
 header a {
@@ -74,13 +73,14 @@ header a {
 
 main {
     /* Margin, Padding & Border */
-    margin-top: 230px; /* Prevents contend from being hidden*/
+    margin-top: 80px; /* Prevents contend from being hidden*/
     padding-top: 0;
 }
 
 nav {
     /* Margin, Padding & Border */
     margin: 0;
+    margin-top: 120px;
     padding: 0;
     /* Appearance*/
     /* Text */
@@ -127,7 +127,6 @@ nav li a {
     width: 100%;
     /* Appearance*/
     /* Text */
-    font-size: 3rem;
 }
 
 .title h1 {
@@ -139,15 +138,12 @@ nav li a {
     /* Text */
     text-align: center;
 }
-.title h2 {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    /* Position & Size */
-    /* Appearance*/
-    /* Text */
-    text-align: center;
-    font-size: 1.7em;
+
+.menu-toggle img {
+    max-width: 64px;
+    padding: 32px;
+    background-color: rgb(72, 95, 34);
+    display: block;
 }
 
 .menu-toggle {
@@ -160,7 +156,6 @@ nav li a {
 
     /* Appearance */
     cursor: pointer;
-    font-size: 10rem;
 }
 
 
