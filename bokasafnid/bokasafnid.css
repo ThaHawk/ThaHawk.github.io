@@ -1,25 +1,3 @@
-/*----------------------------------------------------------------*/
-/*------------------- Background Color Changes -------------------*/
-/*----------------------------------------------------------------*/
-body            {background-color: rgb(201, 162, 107);}
-header, footer  {background-color: rgb(129, 81, 55);}
-nav             {background-color: rgb(222, 182, 127);}
-
-/*----------------------------------------------------------------*/
-/*---------------------- Text Color Changes ----------------------*/
-/*----------------------------------------------------------------*/
-.title h1       {color: white}  /* arnoringi.is     */
-.title h2       {color: white}  /* undertext        */
-header          {color: white}  /* Nav button       */
-footer          {color: white}  /* footer button    */
-nav li a        {color: white}  /* Navigation text  */
-
-/*----------------------------------------------------------------*/
-/*---------------------------- Other -----------------------------*/
-/*----------------------------------------------------------------*/
-
-main {margin-top:265px}
-
 main > h1 { /* Ártal dropdown */
     /* Margin, Padding & Border */
     margin: 16px auto;
@@ -28,7 +6,7 @@ main > h1 { /* Ártal dropdown */
     /* Position & Size */
     width: 97%;
     /* Appearance*/
-    background-color:rgb(129, 81, 55);
+    background-color: rgb(69, 85, 42);
     /* Text */
     text-align: center;
     color: white;

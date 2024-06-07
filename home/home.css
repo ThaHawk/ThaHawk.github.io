@@ -1,25 +1,3 @@
-/*----------------------------------------------------------------*/
-/*------------------- Background Color Changes -------------------*/
-/*----------------------------------------------------------------*/
-
-/*body            {background-color: rgb(33, 42, 18)}*/
-header, footer, body  {background-color: darkolivegreen;}
-nav             {background-color: rgb(55, 70, 30);}
-
-
-
-/*----------------------------------------------------------------*/
-/*---------------------- Text Color Changes ----------------------*/
-/*----------------------------------------------------------------*/
-.title h1       {color: white}  /* arnoringi.is     */
-.title h2       {color: white}  /* undertext        */
-header          {color: white}  /* Nav button       */
-footer          {color: white}  /* footer button    */
-nav li a        {color: white}  /* Navigation text  */
-
-/*----------------------------------------------------------------*/
-/*---------------------------- Other -----------------------------*/
-/*----------------------------------------------------------------*/
 .myInfoText {
     /* Margin, Padding & Border */
     margin: 16px auto;
