@@ -1,5 +1,3 @@
-
-
 function toggleClass() {
   let classText = "." + "myMenu";
   const menu = document.querySelector(classText);
@@ -17,11 +15,14 @@ function toggleClass() {
 </header>*/
 
 const body = document.querySelector("body");
+const topDiv = document.createElement("div");
 const header = document.createElement("header");
 const title = document.createElement("a");
 const menuToggle = document.createElement("a");
 const watermark = document.createElement("img");
 const hamburger = document.createElement("img");
+
+topDiv.className = "top";
 
 title.className = "title";
 
@@ -31,7 +32,8 @@ menuToggle.addEventListener("click", toggleClass);
 watermark.src = "../img/watermark-white.png";
 hamburger.src = "../img/Hamburger_White.png";
 
-body.prepend(header);
+body.prepend(topDiv);
+topDiv.append(header);
 header.append(title);
 header.append(menuToggle);
 title.append(watermark);
@@ -59,6 +61,10 @@ header.after(nav);
 nav.append(unOrderedList);
 
 var listOfSites = [
+  {
+    site:"Heim",
+    path:"../home"
+  },
   {
     site:"Bókasafnið",
     path:"../bokasafnid"
