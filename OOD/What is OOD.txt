@@ -1,0 +1,16 @@
+OOD stands for object oriented design.
+
+in this folder you will find java script file that
+create useful element clusters that most sites on
+here will be using.
+
+one such example is the file 'header.js'. This file
+adds the <header> and <nav> elements with a usable
+dropdown menu and a list of the sites on said list.
+
+How To use a file from OOD
+insert the script anywhere into the html file like this
+
+<script src="../OOD/header.js"></script>
+
+and you're good to go.
