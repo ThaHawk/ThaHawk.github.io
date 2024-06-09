@@ -1,0 +1,23 @@
+
+{
+  {
+    "name":"Dune",
+    "author":"Frank Herbert",
+    "wordCount":"187,240",
+    "rating":5,
+    "desc":"Snilldar sci-fi bók",
+    "start":"2020-12-25",
+    "end":"2021-01-11",
+    "fileName":"img/book-dune.jpg"
+  },
+  {
+    "name":"Dune",
+    "author":"Frank Herbert",
+    "wordCount":"187,240",
+    "rating":5,
+    "desc":"Snilldar sci-fi bók",
+    "start":"2020-12-25",
+    "end":"2021-01-11",
+    "fileName":"img/book-dune.jpg"
+  },
+}

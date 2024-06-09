@@ -1,124 +1,23 @@
-main > h1 { /* Ártal dropdown */
-    /* Margin, Padding & Border */
-    margin: 16px auto;
-    padding: 16px 0;
-    border-radius: 10px;
-    /* Position & Size */
-    width: 97%;
-    /* Appearance*/
-    background-color: rgb(69, 85, 42);
-    /* Text */
-    text-align: center;
-    color: white;
-    font-size: 6em;
+
+body {
+    margin-top: 83px;
 }
 
-.grid-container {
-    /* Margin, Padding & Border */
-    margin: 16px auto;
-    padding: 0;
-    border-radius: 20px;
-    /* Position & Size */
-    width: 97%;
-    display: grid;
-    grid-template-columns: 1fr;
-    /* Appearance*/
-    /* Text */
+
+
+.bookcase > .basicBox {
+    background-color:red;
+}
+
+.bookcase > .basicBox > img {
+    width: 10%;
+}
+
+.bookcase {
+    max-height: 0;
+    overflow: hidden;
     transition: max-height 0.5s ease; /* Add transition property */
 }
 
-.grid-item {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    /* Position & Size */
-    /* Appearance*/
-    background: rgb(201,162,107);
-    background: linear-gradient(0deg, rgba(201,162,107,1) 0%, 
-                                      rgba(129,81,55,1) 100%);
-    /* Text */
-}
-
-.grid-item img {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 20px;
-    /* Position & Size */
-    width: 300px;
-    /* Appearance*/
-    /* Text */
-}
-
-.grid-item h1 {
-    /* Margin, Padding & Border */
-    /* Position & Size */
-    width:100%;
-    /* Appearance*/
-    /* Text */
-    text-align: center;
-    font-size: 6em;
-}
-
-.grid-item h2 {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 20px;
-    /* Position & Size */
-    display: block;
-    /* Appearance*/
-    /* Text */
-
-}
-
-.grid-item p {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 20px;
-    /* Position & Size */
-    width: 100%;
-    /* Appearance*/
-    /* Text */
-    
-}
-
-.cover {
-    /* Margin, Padding & Border */
-    margin: 0;
-    padding: 0;
-    /* Position & Size */
-    display: flex;
-    /* Appearance*/
-    /* Text */
-}
-
-
-#year2024,
-#year2023,
-#year2022,
-#year2021 {
-    max-height: 0;overflow: hidden;
-    transition: max-height 0.5s ease; /* Add transition property */
-}
-#year2024.visible,
-#year2023.visible,
-#year2022.visible,
-#year2021.visible
-{max-height: 1000px;}
-
-
-/*----------------------------------------------------------------*/
-/*---------------------------- Debug -----------------------------*/
-/*----------------------------------------------------------------*/
-/*
-.grid-container     {background-color: red;}
-.grid-item          {background-color: green;}
-.text               {background-color: blue;}
-h1                  {background-color: cyan;}
-h2                  {background-color: magenta;}
-p                   {background-color: yellow;}
-img                 {background-color: orange;}
-/**/
-
-/*----------------------------------------------------------------*/
-/*-------------------------- Templates ---------------------------*/
-/*----------------------------------------------------------------*/
+.visible
+{max-height: 5000px;}

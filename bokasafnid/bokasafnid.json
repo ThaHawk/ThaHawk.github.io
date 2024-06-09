@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Dune",
+    "author": "Frank Herbert",
+    "wordCount": "187,240",
+    "rating": 5,
+    "desc": "Snilldar sci-fi bók",
+    "start": "2020-12-25",
+    "end": "2021-01-11",
+    "fileName": "book-dune.jpg"
+  },
+  {
+    "name": "The Remaining",
+    "author": "D.J. Molles",
+    "wordCount": "68,640",
+    "rating": 3,
+    "desc": "Ágæt zombie bók",
+    "start": "2021-01-12",
+    "end": "2021-01-21",
+    "fileName": "book-the-remaining.jpg"
+  },
+  {
+    "name": "Odyssey",
+    "author": "Homer",
+    "wordCount": "179,612",
+    "rating": 2,
+    "desc": "Áhugaverð klassík",
+    "start": "2021-01-22",
+    "end": "2021-03-16",
+    "fileName": "book-odyssey.webp"
+  },
+  {
+    "name": "The Witcher: The Last Wish",
+    "author": "Andrzej Sapkowski",
+    "wordCount": "72,000",
+    "rating": 5,
+    "desc": "Mjög góð stuttsögu bók",
+    "start": "2021-03-16",
+    "end": "2021-04-04",
+    "fileName": "book-witcher-the-last-wish.jpg"
+  },
+  {
+    "name": "The Witcher: Sword of Destiny",
+    "author": "Andrzej Sapkowski",
+    "wordCount": "104,000",
+    "rating": 4,
+    "desc": "Frábær stuttsögu bók",
+    "start": "2021-04-07",
+    "end": "2021-09-01",
+    "fileName": "book-witcher-sword-of-destiny.jpg"
+  },
+  {
+    "name": "The Witcher: Blood of Elves",
+    "author": "Andrzej Sapkowski",
+    "wordCount": "104,000",
+    "rating": 3,
+    "desc": "Ekkert rosalega spennandi bók en good read",
+    "start": "2021-11-11",
+    "end": "2022-01-21",
+    "fileName": "book-witcher-blood-of-elves.jpg"
+  },
+  {
+    "name": "The Witcher: Time of Contempt",
+    "author": "Andrzej Sapkowski",
+    "wordCount": "80,000",
+    "rating": 2,
+    "desc": "Eh witcher bók",
+    "start": "2022-02-15",
+    "end": "2022-08-24",
+    "fileName": "book-witcher-time-of-contempt.jpg"
+  },
+  {
+    "name": "The Witcher: Baptism of Fire",
+    "author": "Andrzej Sapkowski",
+    "wordCount": "97,250",
+    "rating": 3,
+    "desc": "Skemmtileg Witcher bók",
+    "start": "2022-08-24",
+    "end": "2022-10-02",
+    "fileName": "book-witcher-baptism-of-fire.jpg"
+  },
+  {
+    "name": "Nature Wants us to be Fat",
+    "author": "Richard S. Johnson",
+    "wordCount": 0,
+    "rating": 5,
+    "desc": "Góð bók um afhverju við bætum á okkur fitu og mikið um sykur",
+    "start": "2023-03-21",
+    "end": "2023-03-29",
+    "fileName": "book-nature-wants-us-to-be-fat.jpg"
+  },
+  {
+    "name": "Grit: The Power of Passion and Perserverance",
+    "author": "Angela Duckworth",
+    "wordCount": "88,000",
+    "rating": 5,
+    "desc": "Skemmtileg bók um hvað drífur fólk",
+    "start": "2023-04-11",
+    "end": "2023-04-24",
+    "fileName": "book-grit.jpg"
+  },
+  {
+    "name": "The Richest Man in Babylon",
+    "author": "George S. Clason",
+    "wordCount": "39,750",
+    "rating": 4,
+    "desc": "Hvernig á að fara með pening",
+    "start": "2023-04-19",
+    "end": "2023-04-26",
+    "fileName": "book-richest-man-in-babylon.jpg"
+  },
+  {
+    "name": "Way of Kings, Part I",
+    "author": "Brandon Sandersson",
+    "wordCount": "191,695",
+    "rating": 4,
+    "desc": "Mjög góð og vel skrifuð bók sem er svolítið lengi að byrja en er með mjög góða sögu",
+    "start": "2021-05-01",
+    "end": "2023-05-05",
+    "fileName": "book-way-of-kings-part-1.jpg"
+  },
+  {
+    "name": "Make it Stick: The Science of Successful Learning",
+    "author": "Peter C Brown, Mark A. McDaniel, Henry L. Roediger III",
+    "wordCount": "93,587",
+    "rating": 5,
+    "desc": "Besta leiðinn til að læra eitthvað er að reyna að muna án hjálpar",
+    "start": "2023-04-24",
+    "end": "2023-05-05",
+    "fileName": "book-make-it-stick.jpg"
+  },
+  {
+    "name": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "wordCount": "112,125",
+    "rating": 4,
+    "desc": "Flott bók um það hvernig vanar myndast og festast. Cue, Routine, Reward",
+    "start": "2023-06-06",
+    "end": "2023-06-20",
+    "fileName": "book-habits.jpg"
+  },
+  {
+    "name": "Brief Answers to the Big Questions",
+    "author": "Stephen Hawking",
+    "wordCount": "76,544",
+    "rating": 5,
+    "desc": "Svakalega góð stephen hawkings bók um alheimminn",
+    "start": "2023-06-26",
+    "end": "2023-06-28",
+    "fileName": "book-brief-answers-to-the-big-questions.jpg"
+  },
+  {
+    "name": "Aukin Gæði Náms: Skólaþróun í þágu nemenda",
+    "author": "Rúnar Sigþórsson, Börkur Hansen, Jón Baldvin Hannesson, Ólafur H. Jóhannsson, Rósa Eggertsdóttir, Mel West",
+    "wordCount": 0,
+    "rating": 4,
+    "desc": "Ég lærði helling um það hvað kennarar og fleiri námsiðkendur þurfa að vinna við.",
+    "start": "2023-06-23",
+    "end": "2023-07-07",
+    "fileName": "book-AGN.png"
+  },
+  {
+    "name": "Way of Kings, Part II",
+    "author": "Brandon Sandersson",
+    "wordCount": "191,695",
+    "rating": 5,
+    "desc": "Mjög spennandi og góð skáldsögubók",
+    "start": "2023-05-06",
+    "end": "2023-07-11",
+    "fileName": "book-way-of-kings-part-2.jpg"
+  },
+  {
+    "name": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+    "author": "Matthew Walker",
+    "wordCount": "110,032",
+    "rating": 5,
+    "desc": "Svefn er mikilvægari en ég hélt og það sér maður vel eftir að hafa lesið þessa.",
+    "start": "2023-06-12",
+    "end": "2023-07-19",
+    "fileName": "book-why-we-sleep.jpg"
+  },
+  {
+    "name": "Draumaland",
+    "author": "Arna Skúladóttir",
+    "wordCount": 0,
+    "rating": 5,
+    "desc": "Svefn barna breytist mikið og segir rosalega mikið til um líðan þess.",
+    "start": "2023-07-23",
+    "end": "2023-08-13",
+    "fileName": "book-Draumaland.jpeg"
+  },
+  {
+    "name": "Meditations",
+    "author": "Marcus Aurelius",
+    "wordCount": "75,946",
+    "rating": 3,
+    "desc": "Fínir textar frá fyrrum keisara rómaveldis um heimsspeki",
+    "start": "2023-08-16",
+    "end": "2023-08-30",
+    "fileName": "book-meditations.jpg"
+  },
+  {
+    "name": "The Defining Decade: Why Your twenties matter- and how to make the most of them now",
+    "author": "Meg Jay",
+    "wordCount": "81,627",
+    "rating": 5,
+    "desc": "Þú hefur ekki endalausan tíma í lífinu. Nýttu hann núna!",
+    "start": "2023-12-03",
+    "end": "2023-12-30",
+    "fileName": "book-defining_decade.jpg"
+  },
+  {
+    "name": "The Murder of Roger Ackroyd",
+    "author": "Agatha Christie",
+    "wordCount": "92,000",
+    "rating": 5,
+    "desc": "Mjög skemmtileg morðráðgáta",
+    "start": "2023-09-24",
+    "end": "2024-01-07",
+    "fileName": "book-muder_of_roger_ackroyd.jpg"
+  },
+  {
+    "name": "Words of Radiance, Part I",
+    "author": "Brandon Sandersson",
+    "wordCount": "199,716",
+    "rating": 5,
+    "desc": "spennandi",
+    "start": "2023-09-04",
+    "end": "2024-05-08",
+    "fileName": "book-words-of-radiance.jpg"
+  },
+  {
+    "name": "Mistborn: The Final Empire",
+    "author": "Brandon Sandersson",
+    "wordCount": "161,759",
+    "rating": 5,
+    "desc": "Drungalegur og áhugaverður heimur með spennandi sögu",
+    "start": "2024-01-08",
+    "end": "2024-04-19",
+    "fileName": "book-mistborn_the_final_empire.jpg"
+  },
+  {
+    "name": "Words of Radiance, Part 2",
+    "author": "Brandon Sandersson",
+    "wordCount": "199,716",
+    "rating": 5,
+    "desc": "Amazing",
+    "start": "2024-05-08",
+    "end": "2024-05-19",
+    "fileName": "book-words-of-radiance-part-2.jpg"
+  },
+  {
+    "name": "The Color of Magic",
+    "author": "Terry Pratchett",
+    "wordCount": "68,172",
+    "rating": 4,
+    "desc": "Skemmtileg og skrítin bók",
+    "start": "2024-05-19",
+    "end": "2024-05-25",
+    "fileName": "book-the-color-of-magic.webp"
+  },
+  {
+    "name": "Edgedancer",
+    "author": "Brandon Sandersson",
+    "wordCount": "40,666",
+    "rating": 3,
+    "desc": "Medíum filler bók",
+    "start": "2024-05-25",
+    "end": "2024-06-06",
+    "fileName": "book-edgedancer.jpg"
+  },
+  {
+    "name": "Nature Wants us to be Fat",
+    "author": "Richard S. Johnson",
+    "wordCount": "68,256",
+    "rating": null,
+    "desc": null,
+    "start": "2024-06-06",
+    "end": null,
+    "fileName": "book-nature-wants-us-to-be-fat.jpg"
+  }
+]
