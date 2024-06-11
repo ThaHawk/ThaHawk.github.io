@@ -110,7 +110,8 @@
 
 
 body {
-    margin-top: 87px;
+    margin-top: 100px;
+    margin-bottom: 87px;
     color: white;
     
     font-family: "Kanit", sans-serif;
@@ -122,9 +123,15 @@ body {
 
     text-align: center;
     padding: 10px;
-    margin: 4px;
-    border-radius: 10px;
-    background: rgb(41,117,48);
+    margin: 14px 0px;
+    /*background: rgb(41,117,48);*/
+
+
+
+    border-radius: 0px;
+    background: linear-gradient(145deg, #2c7d33, #25692b);
+    box-shadow:  0px 5px 4px #236329,
+                -0px -5px 4px #2f8737;
 
 /*
     background: rgb(41,117,48);
@@ -143,7 +150,7 @@ body {
 
 .bookcase > .basicBox > .textBox {
     /*background-color: lightseagreen;*/
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     
 }
 
@@ -162,13 +169,13 @@ body {
 .bookcase > .basicBox > .imgBox {
     max-width: 150px;
     display: block;
-    border: 2px solid black;
     margin: 0 auto;
 }
 
 .imgBox > img {
     width: 100%;
     display: block;
+    box-shadow: 3px 3px 10px black;
 }
 
 
@@ -177,10 +184,10 @@ body {
 .bookcase {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.6s linear; /* Add transition property */
+    transition: max-height 0.5s linear; /* Add transition property */
 }
 
-.visible {max-height: none;}
+.visible {max-height: 8000px;}
 
 
 
@@ -192,8 +199,52 @@ body {
     border-bottom-left-radius: 10px;
 }
 
-#h1-NowReading {
-    margin-bottom: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+
+
+/* Activate for easy book overview */
+
+/* Give bookcase */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Give to .basicBox*/
+.gridItem {
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+/* give to texbox */
+.hide {
+    display: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+    margin: 0;
+    background: linear-gradient(145deg, #2c7d33, #25692b);
+}
+
+button {
+    background: rgb(41,117,48);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 0;
+    border: none;
+    border-radius: 0px;
+    box-shadow:  0px 5px 3px #236329,
+                -0px -5px 3px #2f8737;
 }

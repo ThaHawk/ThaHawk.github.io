@@ -8,6 +8,8 @@ const body = document.querySelector("body");
 
 // list of objects
 var arrayOfYears = [];
+var arrayOfBookcases = [];
+
 
 // global variable
 let count = 0;
@@ -43,6 +45,8 @@ books.forEach(function(obj){
   var yearCheck = document.querySelector("#year" + year);
   if (yearCheck === null) {
     var bookcase = document.createElement("div");
+    arrayOfBookcases.push(bookcase);
+
     bookcase.className = "bookcase";
     bookcase.id = "year" + year;
 
@@ -91,9 +95,67 @@ books.forEach(function(obj){
     bookName, bookAuthor, bookWordCount, bookRating,
     bookDesc, bookStart, bookEnd
   );
-  
 
 });
 
 // fix now reading section
 document.querySelector("#h1-NowReading").textContent = "Currently Reading";
+
+
+// detail
+const detailButton = document.querySelector(".detail");
+
+function toggleGrid(){
+  const bookcase = document.querySelectorAll(".bookcase");
+  const basicBox = document.querySelectorAll(".basicBox");
+  const textBox = document.querySelectorAll(".textBox");
+  const btnToggle = document.querySelector(".detail");
+
+  bookcase.forEach(function(obj){
+    obj.classList.toggle("grid");
+  });
+  basicBox.forEach(function(obj){
+    obj.classList.toggle("gridiItem");
+  });
+  textBox.forEach(function(obj){
+    obj.classList.toggle("hide");
+  });
+
+  if (btnToggle.textContent === "Change To Detail"){
+    btnToggle.textContent = "Change To Grid";
+  }
+  else {
+    btnToggle.textContent = "Change To Detail";
+  }
+
+}
+
+toggleGrid();
+detailButton.addEventListener("click",toggleGrid);
+
+// to top functionality
+const toTop = document.querySelector(".toTop");
+toTop.addEventListener("click", function(){
+  globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+});
+
+// collapse / show function
+const collapse = document.querySelector(".collapse");
+collapse.addEventListener("click",function(){
+
+  let success = false;
+  arrayOfBookcases.forEach(function(obj){
+    if (obj.classList.contains("visible")) {
+      obj.classList.toggle("visible"); // removes visible
+      success = true;
+    }
+  });
+
+  if (!success) {
+    arrayOfBookcases.forEach(function(obj){
+      obj.classList.toggle("visible");
+    });
+  }
+  
+});
+
