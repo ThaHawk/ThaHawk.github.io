@@ -278,5 +278,15 @@
     "start": "2024-06-06",
     "end": null,
     "fileName": "book-nature-wants-us-to-be-fat.jpg"
+  },
+  {
+    "name": "Oathbringer",
+    "author": "Brandon Sandersson",
+    "wordCount": "451,912",
+    "rating": null,
+    "desc": null,
+    "start": "2024-06-26",
+    "end": null,
+    "fileName": "book-oathbringer.jpg"
   }
 ]
