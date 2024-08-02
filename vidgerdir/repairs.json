@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Samsung Galaxy S9 Plus",
+    "type": "Smartphone",
+    "repair": "Screen replacement",
+    "fileName": "Samsung-Galaxy-S9-plus.jpg"
+  },
+  {
+    "name": "Motorola Moto g60s",
+    "type": "Smartphone",
+    "repair": "Screen replacement",
+    "fileName": "Motorola-Moto-G60S-Green.jpg"
+  },
+  {
+    "name": "Samsung Galaxy A71",
+    "type": "Smartphone",
+    "repair": "Screen replacement",
+    "fileName": "Samsung-Galaxy-A71.jpg"
+  },
+  {
+    "name": "Samsung Galaxy Note 10 Lite",
+    "type": "Smartphone",
+    "repair": "Screen replacement",
+    "fileName": "Samsung-Galaxy-Note-10-Lite.png"
+  },
+  {
+    "name": "JBL Live 500BT",
+    "type": "Headphones",
+    "repair": "Earpad replacement",
+    "fileName": "JBL-LIVE-500BT.jpg"
+  },
+  {
+    "name": "JBL Live 650BTNC",
+    "type": "Headphones",
+    "repair": "Earpad replacement",
+    "fileName": "JBL-LIVE-650BTNC.jpg"
+  },
+  {
+    "name": "Beats Solo 3",
+    "type": "Headphones",
+    "repair": "Earpad replacement",
+    "fileName": "Beats-Solo-3.jpg"
+  },
+  {
+    "name": "Beats Studio 3",
+    "type": "Headphones",
+    "repair": "Earpad replacement",
+    "fileName": "Beats-Studio-3.jpg"
+  },
+  {
+    "name": "Bose QuiteComfort 35 (Series I)",
+    "type": "Headphones",
+    "repair": "Earpad replacement",
+    "fileName": "Bose-QuietComfort-35.jpg"
+  },
+  {
+    "name": "Playstation 4 Pro",
+    "type": "Gaming Console",
+    "repair": "Dust removal",
+    "fileName": "Playstation-4-Slim.jpg"
+  }
+]

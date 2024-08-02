@@ -25,10 +25,12 @@ const header = document.createElement("header");
   topDiv.className = "top";
   
   title.className = "title";
+  title.href = "../home";
   
   menuToggle.className = "menu-toggle";
   menuToggle.addEventListener("click", toggleClass);
-  
+
+
   watermark.src = "../img/watermark-white.png";
   hamburger.src = "../img/Hamburger_White.png";
   

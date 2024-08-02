@@ -14,9 +14,6 @@
     padding: 0;
     /* Position & Size */
     display: block;
-    /* Appearance*/
-    background: rgb(85,107,47);
-    background: linear-gradient(180deg, rgba(85,107,47,1) 0%, rgba(33,42,18,1) 100%);
     /* Text */
     text-align: center;
     color: white;
