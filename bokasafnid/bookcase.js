@@ -90,7 +90,7 @@ books.forEach(function(obj){
   bookcase = document.querySelector("#year" + year);
   bookcase.append( basicBox );
   basicBox.append( imgBox , textBox );
-  imgBox.append(bookImg);
+  imgBox.append( bookImg );
   textBox.append(
     bookName, bookAuthor, bookWordCount, bookRating,
     bookDesc, bookStart, bookEnd
