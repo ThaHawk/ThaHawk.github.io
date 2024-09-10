@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+p {
+  display: inline;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  padding: 1em 0;
+  left: 0;
+  text-align: center;
+  top: 5em;
+  font-size: 40px;
+}
+
+.actionButtons {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.actionButtons > button {
+  padding: 32px 0;
+  font-size: xx-large;
+}
+
+img {
+  width: 100vw;
+}
+
+.btnStartGame {
+  color: orangered;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.infoLine {
+  width: 50vw;
+  font-size: 2em;
+  text-align: center;
+}
+
+label {
+  font-size: x-large;
+  display: block;
+}
+
+.status {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.timeRemaining {
+  width: 100vw;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+

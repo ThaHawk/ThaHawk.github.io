@@ -77,6 +77,8 @@ function ticker() {
   curTime -= 0.1;
   labelTimeRemaining.textContent = curTime.toFixed(1);
 
+  // update image
+  updateImage(curFireLevel);
 }
 
 /**
@@ -117,7 +119,7 @@ function stopGame() {
   }
   else if (gameState == 3) { // win
     gameStateText.textContent = "You Win!";
-    gameStateText.style.color = "Green";
+    gameStateText.style.color = "lightgreen";
   }
 
 }
@@ -151,7 +153,7 @@ function addWoodStores() {
   if (woodCooldown <= 0 && !woodAtMax()){
     curWoodStores += 1;
     labelWoodStores.textContent = curWoodStores;
-    woodCooldown = 5; // adds a two second cooldown
+    woodCooldown = 5; // adds a 0.5 second cooldown
     btnChopWood.disabled = true; // gray out button while cold
     btnAddFuel.disabled = false;
   }
@@ -165,6 +167,9 @@ function addFuel() {
   if (curWoodStores > 0 && !fireAtMax()){
     addFire();
     removeWood();
+    if (curWoodStores <= 0){
+      btnAddFuel.disabled = true;
+    }
   }
 
   if (fireAtMax()){
@@ -229,3 +234,16 @@ function fireAtMax() {
   }
 }
 
+function updateImage(level){
+  var source = "img/";
+  if (level >= 8){
+    source += "fire3.png";
+  } else if (level >= 4) {
+    source += "fire2.png";
+  } else if (level >= 1) {
+    source += "fire1.png";
+  } else {
+    source += "fire0.png";
+  }
+  imgFire.src = source;
+}

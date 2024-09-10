@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <p class="timeRemaining">60</p>
-    <label>Fire Level</label>
-    <p class="labelFireLevel">0</p><p>/</p><p>10</p>
-    <label>Wood Stores</label>
-    <p class="labelWoodStores">0</p><p>/</p><p>10</p>
-    <button class="btnStartGame">Press to start</button>
-    <img class="imgFire" src="img/fire1.jpg">
-    <button class="btnAddFuel">Add fuel</button>
-    <button class="btnChopWood">Chop wood</button>
+    <main>
+      <button class="btnStartGame"></button>
+      <p class="timeRemaining"></p>
+      <img class="imgFire" src="img/fire1.png">
+      <div class="status">
+        <div class="infoLine">
+          <label>Fire Level</label>
+          <p class="labelFireLevel"></p><p>/</p><p>10</p>
+        </div>
+        <div class="infoLine">
+          <label>Wood Stores</label>
+          <p class="labelWoodStores"></p><p>/</p><p>10</p>
+        </div>
+      </div>
+      <div class="actionButtons">
+        <button class="btnAddFuel">Add fuel</button>
+        <button class="btnChopWood">Chop wood</button>
+      </div>
+      <h1 class="gameStateText"></h1>
+    </main>
     <script src="script.js"></script>
-    <h1 class="gameStateText"></h1>
   </body>
 </html>
