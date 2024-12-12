@@ -22,7 +22,6 @@ nav {
 
 main {
     text-align: center;
-    margin: 0 auto;
     background-color: yellow;
 }
 
@@ -34,5 +33,10 @@ footer {
 .flex {
     display: grid;
     grid-template-columns: 20% 80%;
+}
 
+img {
+    width: 150px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px black);
 }
