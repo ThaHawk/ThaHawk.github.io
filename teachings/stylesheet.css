@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding: 1em;
+    font-size: x-large;
+    background-color: lightblue;
+    position: fixed;
+}
+.fake {
+    visibility: hidden;
+    position: static;
+}
+
+nav {
+    text-align: left;
+    background-color: greenyellow;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
