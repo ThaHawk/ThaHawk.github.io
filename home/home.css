@@ -18,6 +18,7 @@
     text-align: center;
     color: white;
     font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .myInfo img {
@@ -71,10 +72,3 @@
 .myInfo ul{background-color: blue;}
 .myInfo h3{background-color: green;}
 .myInfo p{background-color: cyan;}/**/
-
-.cssTemplate {
-    /* Margin, Padding & Border */
-    /* Position & Size */
-    /* Appearance*/
-    /* Text */
-}

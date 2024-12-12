@@ -87,6 +87,10 @@ var listOfSites = [
   {
     site:"Viðgerðir",
     path:"../vidgerdir"
+  },
+  {
+    site:"Teachings",
+    path:"../teachings"
   }
 ];
 
