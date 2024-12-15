@@ -37,7 +37,7 @@ content.kaflar.forEach(element => {
 
 function createTitle(text) {
     // create object and set its propperties
-    const textElement = document.querySelector(".title");
+    const textElement = document.querySelector("#title");
 
     // put content into element
     textElement.textContent = text;
