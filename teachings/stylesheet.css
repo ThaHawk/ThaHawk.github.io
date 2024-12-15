@@ -1,33 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Red Hat Text", sans-serif;
 }
 
 header {
-    width: 100%;
     padding: 1em;
-    font-size: x-large;
-    background-color: lightblue;
-    position: fixed;
+    background-color: #03256C;
+    color: #FFFFFA;
 }
-.fake {
-    visibility: hidden;
-    position: static;
+
+.title {
+    display: inline;
+    margin-left: 1em;
+    font-size: xx-large;
+}
+
+.hideNav {
+    font-size: 50px;
 }
 
 nav {
+    padding: 1em;
     text-align: left;
-    background-color: greenyellow;
+    background-color: #7699D4;
+    color: white;
 }
 
 main {
+    padding: 1em;
     text-align: center;
-    background-color: yellow;
+    background-color: #FFFFFA;
 }
 
 footer {
-    background-color: red;
+    background-color: #584D3D;
+    color: #FFFFFA;
     width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    list-style: none;
 }
 
 .flex {
@@ -40,3 +63,68 @@ img {
     border-radius: 10px;
     filter: drop-shadow(4px 4px 4px black);
 }
+
+h1 {
+    margin: 0;
+}
+
+nav h1 {
+    text-align: center;
+}
+
+nav ul {
+    padding-left: 0em;
+    list-style: none;
+}
+
+nav li {
+    margin: 0.5em 0;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    color: white;
+
+    border-radius: 0px;
+background: #7699D4;
+box-shadow:  4px 4px 4px #2f3d55,
+             -4px -4px 4px #bdf5ff;
+}
+
+iframe {
+    width: 720px;
+    height: 480px;
+}
+
+@media (max-width: 720px) {
+    iframe {
+        width: 100%;
+        height: 480px;
+    }
+}
+
+iframe {
+    margin-bottom: 1em;
+}
+
+/* --- Font --- */
+.l {
+    font-size: 80px;
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+
+.m {
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+p {
+    text-align: left;
+    font-size: large;
+}
+

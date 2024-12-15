@@ -1,0 +1,23 @@
+{
+    "titill":"8. Bekkur",
+    "kaflar": [
+        { 
+            "id":"1.1",
+            "nafn":"1.1 Prósentu Reikningur",
+            "efni":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nostrum beatae mollitia quaerat repudiandae consectetur accusamus iure. Vitae eveniet sit, repudiandae dolorem atque obcaecati, doloribus nesciunt odit quaerat molestiae omnis.",
+            "myndband":"https://www.youtube.com/embed/U6a9f67-YS4"
+        },
+        {
+            "id":"1.2",
+            "nafn":"1.2 Deiling",
+            "efni":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nostrum beatae mollitia quaerat repudiandae consectetur accusamus iure. Vitae eveniet sit, repudiandae dolorem atque obcaecati, doloribus nesciunt odit quaerat molestiae omnis.",
+            "myndband":"https://www.youtube.com/embed/U6a9f67-YS4"
+        },
+        {
+            "id":"1.3",
+            "nafn":"1.3 Deiling með þríhyrning",
+            "efni":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nostrum beatae mollitia quaerat repudiandae consectetur accusamus iure. Vitae eveniet sit, repudiandae dolorem atque obcaecati, doloribus nesciunt odit quaerat molestiae omnis.",
+            "myndband":"https://www.youtube.com/embed/U6a9f67-YS4"
+        }
+    ]
+}
