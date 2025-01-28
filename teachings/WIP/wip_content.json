@@ -1,0 +1,17 @@
+{
+    "titill":"8. Bekkur stærðfræði",
+    "kaflar": [
+        { 
+            "id":"1.1",
+            "nafn":"1.1 Tölur og reikningur",
+            "efni":"Rauntölur og Talnamengi",
+            "myndband":"https://www.youtube.com/embed/U6a9f67-YS4"
+        },
+        { 
+            "id":"1.2",
+            "nafn":"1.2 Tölur og reikningur",
+            "efni":"Rauntölur og Talnamengi",
+            "myndband":"https://www.youtube.com/embed/U6a9f67-YS4"
+        }
+    ]
+}

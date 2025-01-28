@@ -283,10 +283,20 @@
     "name": "Oathbringer",
     "author": "Brandon Sandersson",
     "wordCount": "451,912",
-    "rating": null,
+    "rating": 5,
     "desc": null,
     "start": "2024-06-26",
-    "end": null,
+    "end": "2025-01-28",
     "fileName": "book-oathbringer.jpg"
+  },
+  {
+    "name": "Dawnshard",
+    "author": "Brandon Sandersson",
+    "wordCount": "53,352",
+    "rating": null,
+    "desc": null,
+    "start": "2025-01-28",
+    "end": null,
+    "fileName": "book-dawnshard.png"
   }
 ]
