@@ -293,10 +293,10 @@
     "name": "Dawnshard",
     "author": "Brandon Sandersson",
     "wordCount": "53,352",
-    "rating": null,
+    "rating": 5,
     "desc": null,
     "start": "2025-01-28",
-    "end": null,
+    "end": "2025-02-01",
     "fileName": "book-dawnshard.png"
   }
 ]
