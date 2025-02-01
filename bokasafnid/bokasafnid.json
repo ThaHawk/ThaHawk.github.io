@@ -111,7 +111,7 @@
   },
   {
     "name": "Way of Kings, Part I",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "191,695",
     "rating": 4,
     "desc": "Mjög góð og vel skrifuð bók sem er svolítið lengi að byrja en er með mjög góða sögu",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Way of Kings, Part II",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "191,695",
     "rating": 5,
     "desc": "Mjög spennandi og góð skáldsögubók",
@@ -221,7 +221,7 @@
   },
   {
     "name": "Words of Radiance, Part I",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "199,716",
     "rating": 5,
     "desc": "spennandi",
@@ -231,7 +231,7 @@
   },
   {
     "name": "Mistborn: The Final Empire",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "161,759",
     "rating": 5,
     "desc": "Drungalegur og áhugaverður heimur með spennandi sögu",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Words of Radiance, Part 2",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "199,716",
     "rating": 5,
     "desc": "Amazing",
@@ -261,7 +261,7 @@
   },
   {
     "name": "Edgedancer",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "40,666",
     "rating": 3,
     "desc": "Medíum filler bók",
@@ -281,7 +281,7 @@
   },
   {
     "name": "Oathbringer",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "451,912",
     "rating": 5,
     "desc": null,
@@ -291,12 +291,22 @@
   },
   {
     "name": "Dawnshard",
-    "author": "Brandon Sandersson",
+    "author": "Brandon Sanderson",
     "wordCount": "53,352",
     "rating": 5,
     "desc": null,
     "start": "2025-01-28",
     "end": "2025-02-01",
     "fileName": "book-dawnshard.png"
+  },
+  {
+    "name": "Rhythim of War",
+    "author": "Brandon Sanderson",
+    "wordCount": "455,891",
+    "rating": null,
+    "desc": null,
+    "start": "2025-02-01",
+    "end": null,
+    "fileName": "book-rhythm-of-war.jpg"
   }
 ]
