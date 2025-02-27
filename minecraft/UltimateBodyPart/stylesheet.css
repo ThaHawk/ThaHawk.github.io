@@ -1,0 +1,125 @@
+@font-face {
+    font-family: MinecraftRegular;
+    src: url("../minecraft-font/MinecraftRegular-Bmg3.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MinecraftBold;
+    font-weight: bold;
+    src: url("../minecraft-font/MinecraftBold-nMK1.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MinecraftItalic;
+    font-style: italic;
+    src: url("../minecraft-font/MinecraftItalic-R8Mo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MinecraftBoldItalic;
+    font-weight: bold;
+    font-style: italic;
+    src: url("../minecraft-font/MinecraftBoldItalic-1y1e.otf") format("opentype");
+}
+
+* {
+    font-family: MinecraftRegular;
+    box-sizing: border-box;
+}
+
+/*
+body {background-color: burlywood;}
+header {background-color: yellowgreen}
+nav {background-color:yellow;}
+ul {background-color:orange}
+li {background-color: navy;}
+a {background-attachment: gray;}
+main {background-color:red;}
+h1 {background-color: aquamarine};
+h2 {background-color: lightcoral;}
+.flex-container {background-color: lightskyblue;}
+.column {background-color: lightgoldenrodyellow;}
+img {background-color: cornflowerblue;}
+*/
+
+body {
+    background-color: #6eaddd;
+}
+
+header, footer {
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+
+.column {
+    max-width: 33.333%;
+}
+
+img, h1, h2 {
+    max-width: 100%;
+    padding: 4px;
+    border: none;
+    display: block;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;    
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+    margin: 0 auto;
+    /* Neumorphisum */
+    border-radius: 20px;
+    background: #84d0ff;
+    margin-top: 10px;
+    
+}
+
+a {
+    font-family: MinecraftBold;
+    color: black;
+    max-width: 100%;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+li:hover {
+    border-radius: 20px;
+    background: #6eaddd;
+    box-shadow: inset 18px 18px 36px #588ab1,
+               inset -18px -18px 36px #84d0ff;
+}
+ 
+.column p {
+    padding: 0 4px 8px 4px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .column {
+      max-width: 100%;
+    }
+  }
