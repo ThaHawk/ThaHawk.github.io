@@ -56,11 +56,15 @@ header, footer {
     padding-bottom: 90px;
 }
 
-img{
+.column {
+    max-width: 33.333%;
+}
+
+img, h1, h2 {
+    max-width: 100%;
     padding: 4px;
     border: none;
     display: block;
-    max-width: 33.333%;
 }
 
 h1, h2 {
@@ -115,7 +119,7 @@ li:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    img {
+    .column {
       max-width: 100%;
     }
   }
