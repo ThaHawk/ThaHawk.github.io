@@ -60,7 +60,8 @@ img{
     padding: 4px;
     border: none;
     display: block;
-    max-width: 33.333%;
+    /*max-width: 33.333%;*/
+    max-width: 50%;
 }
 
 h1, h2 {
