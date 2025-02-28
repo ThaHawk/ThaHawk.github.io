@@ -56,6 +56,7 @@ header, footer {
     flex-wrap: wrap;
     margin-bottom: 90px;
     background-color: #5e6c77;
+    padding: 4px;
 }
 
 img{
