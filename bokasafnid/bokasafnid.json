@@ -298,5 +298,15 @@
     "start": "2025-02-01",
     "end": null,
     "fileName": "book-rhythm-of-war.jpg"
+  },
+  {
+    "name": "Dulstafir: Dóttir Hafsins",
+    "author": "Kristín Björg Sigurvinsdóttir",
+    "wordCount": "75,000",
+    "rating": null,
+    "desc": null,
+    "start": "2025-03-10",
+    "end": null,
+    "fileName": "book-dulstafir-dottir-hafsins.jpg"
   }
 ]
