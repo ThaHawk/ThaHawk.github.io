@@ -33,7 +33,7 @@ books.forEach(function(obj){
 
   // if there is no end date. The book 
   // is assumed to be in progres.
-  if (obj.end === null){
+  if (obj.end === ""){
     year = "NowReading";
   }
   else {
