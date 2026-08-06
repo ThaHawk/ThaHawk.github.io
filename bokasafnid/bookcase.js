@@ -33,7 +33,7 @@ books.forEach(function(obj){
 
   // if there is no end date. The book 
   // is assumed to be in progres.
-  if (obj.end === null){
+  if (obj.end === ""){
     year = "NowReading";
   }
   else {
@@ -68,9 +68,6 @@ books.forEach(function(obj){
   const bookName      = document.createElement("h2");
   const bookAuthor    = document.createElement("h3");
   const bookWordCount = document.createElement("p");
-  const bookRating    = document.createElement("p");
-  const bookDesc      = document.createElement("p");
-  const bookStart     = document.createElement("p");
   const bookEnd       = document.createElement("p");
   const bookImg       = document.createElement("img");
 
@@ -80,9 +77,6 @@ books.forEach(function(obj){
   bookName.textContent        = obj.name;
   bookAuthor.textContent      = "Höfundur: "    + obj.author;
   bookWordCount.textContent   = "Orðafjöldi: "  + obj.wordCount;
-  bookRating.textContent      = "Stig: "        + obj.rating + "/5";
-  bookDesc.textContent        = "Lýsing: "      + obj.desc;
-  bookStart.textContent       = "Byrjaði: "     + obj.start;
   bookEnd.textContent         = "Kláraði: "     + obj.end;
   bookImg.src                 = "img/"          + obj.fileName;
   
@@ -92,8 +86,7 @@ books.forEach(function(obj){
   basicBox.append( imgBox , textBox );
   imgBox.append( bookImg );
   textBox.append(
-    bookName, bookAuthor, bookWordCount, bookRating,
-    bookDesc, bookStart, bookEnd
+    bookName, bookAuthor, bookWordCount, bookEnd
   );
 
 });
